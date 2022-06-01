@@ -1,0 +1,97 @@
+body {
+    margin: 0.8vw;
+}
+
+/*styling af h1*/
+h1 {
+    text-align: center;
+    font-family: Rama Gothic M;
+    font-size: 4vw;
+    margin: 0.05vw;
+}
+
+.tekst {
+    position: relative;
+}
+
+/*her har jeg stylet galleriet som grid*/
+.img_galleri {
+    width: 80%;
+    margin: 5vw auto 2.5vw;
+    display: grid;
+    /*linjen under for det til at være responsive*/
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 0.95vw;
+    margin-top: 0.1vw;
+}
+
+/*linje 30 gør at når musen kommer over billederne skifter musen til pointer*/
+.img_galleri img {
+    width: 100%;
+    cursor: pointer;
+}
+
+/*her styler jeg citat boksen*/
+.box {
+    background-color: black;
+    padding: 1vw;
+    align-items: center;
+    margin-left: 9.9vw;
+    margin-right: 9.9vw;
+    color: white;
+    font-family: 'Libre Franklin', ExtraLight Italic;
+    text-align: center;
+    font-size: 1.3vw;
+    margin-bottom: 0vw;
+}
+
+/*jeg kunne ikke for fonten til at virke så jeg lavede den manuelt light og italic*/
+.tekst_style {
+    font-family: Libre Franklin, ExtraLight Italic;
+    font-weight: lighter;
+    font-style: italic;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+
+/*Her laver jeg mobil versionen */
+
+/*fik hjælp fra disse for at komme frem til dette resultat*/
+/*https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/*/
+/*https://www.youtube.com/watch?v=cU9KJeDwdtQ*/
+/*https://www.youtube.com/watch?v=slmgTzry6AM*/
+/*https://www.youtube.com/watch?v=O3ipx3ZNY7A*/
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0%;
+    }
+/*linje 71 gør at der kommer to columns*/
+    .img_galleri {
+        margin-top: 3vw;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+/*dette gør at de ikke vises på mobil størrelse fordi jeg har givet denne class inde i html*/
+    .mobil_no {
+        display: none;
+    }
+/*skifte bagrundsfarve og laver border*/
+    .box {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        border-style: solid;
+        border-color: black;
+    }
+
+    h1 {
+        font-size: 8vw;
+    }
+
+    h2 {
+        font-size: 3.5vw;
+        color: black;
+        font-weight: none;
+    }
+}
