@@ -1,0 +1,130 @@
+/*Her har jeg stylet bodyen i min html, hvor jeg gerne vil have luft i venstre side*/
+body {
+    margin-left: 2vw;
+}
+
+/*Her har jeg stylet selve boksens udseende*/
+.boks {
+    background-color: black;
+    border: 0.15vw solid red;
+    text-align: center;
+    color: white;
+    font-size: 2.5vw;
+    font-family: Rama Gothic M;
+    padding: 0vw 4vw;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5vw;
+}
+
+h1{
+    margin: 0.5vw;
+    font-size: 3vw;
+}
+
+/*Her har jeg stylet flex kolonner*/
+.container {
+    display: flex;
+}
+
+/*Her har jeg stylet luften mellem boksen "Om os" og teksten nedenunder*/
+.text-col {
+    margin-top: 4vw;
+}
+
+/*Her har jeg stylet alle mine paragraffer*/
+p {
+    text-align: left;
+    font-size: 1,9vw;
+    font-family: carme;
+    margin: 0vw;
+    margin-top: 0vw;
+    margin-left: 5vw;
+}
+
+/*Her har jeg stylet alle mine overskrifter*/
+h2 {
+    text-align: left;
+    font-size: 1,9vw;
+    font-family: libre Franklin, Bold Italic;
+    margin: 0vw;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+    margin-left: 5vw;
+}
+
+/*Her har jeg stylet 1 linje (linje 35 i html) som skulle stå for sig selv*/
+.høre {
+    text-align: left;
+    font-size: 1,9vw;
+    font-family: libre Franklin, Bold Italic;
+    margin: 0vw;
+    margin-top: 4vw;
+    margin-left: 5vw;
+}
+
+/*Her har jeg stylet "Kontakt" og "Fomular" knappernes margin så de er placeret rigtigt på siden*/
+.kf {
+    margin-top: 2vw;
+    margin-left: 5vw;
+}
+
+/*Her har jeg stylet "Kontakt os" knappen*/
+.kontakt {
+    background-color: black;
+    text-align: left;
+    color: white;
+    border: none;
+    padding: 0.75vw 3.25vw;
+    margin-top: 2vw;
+    font-family: Hind Madurai;
+    font-size: 1vw;
+    /*Skal måske fjernes*/
+    font-weight: bold;
+}
+
+/*Her har jeg stylet "Udfyld formular" knappen*/
+.formular {
+    background-color: red;
+    text-align: left;
+    color: white;
+    border: none;
+    padding: 0.75vw 2.5vw;
+    margin-top: 1vw;
+    font-family: Hind Madurai;
+    font-size: 1vw;
+    /*Skal måske fjernes*/
+    font-weight: bold;
+}
+
+/*Her har jeg stylet billderne*/
+img {
+    max-width: 60%;
+    align-items: center;
+    margin-bottom: 0.25vw;
+    margin-right: 19.25vw;
+    margin-left: 12.5vw;
+    object-position: left;
+}
+
+/*Her har jeg placeret Varevogns billedet på siden (Øverste billede til højre)*/
+.vogn {
+    margin-right: 2.25vw;
+    margin-left: 1.750vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+}
+
+/*Her har jeg placeret logoet på siden (Midterste billede til højre) */
+.logo {
+    margin-top: 0.75vw;
+    margin-right: 2.25vw;
+    margin-left: 2vw;
+}
+
+/*Her har jeg placeret adresse på siden (Nederste billede til højre)*/
+.adresse{
+    margin-top: 0.25vw;
+    margin-right: 2.25vw;
+    margin-left:1.750vw;
+}
