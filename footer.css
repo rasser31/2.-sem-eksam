@@ -1,5 +1,11 @@
+
+body{
+    margin: 0;
+}
+
 /*footer begyndelse*/
 /*footer - overskrift facven*/
+
 .footer-overskrift { 
     color:#FFF;
 }
@@ -10,6 +16,7 @@ footer {
     background-color: black; 
     min-height:12.5vw; 
     padding:0.25vw 0vw 2.5vw 0vw ;
+    
 }
 
 /*footer - row*/
