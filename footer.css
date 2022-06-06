@@ -11,7 +11,7 @@ body{
 /*footer - baggrund*/
 footer { 
     background-color: black; 
-    padding:1vw 0vw 1vw 2vw ;
+    padding:-1vw 0vw 1vw 0vw;
     margin-top: 2vw;
     position: absolute;
     padding-bottom: 1vw;
@@ -104,9 +104,21 @@ footer p {
     margin-left: 13.9vw;
 }
 
+/*footer - credit "created and hosted by Træksmeden ApS ©"*/
+.credit-info{
+    border-top: 0.1vw solid #FFF;
+    margin-top: 1vw;
+}
 
-/*footer - media queries*/
-/* On screens that are 600px or less, set the background color to olive */
+.credit-txt{
+    font-family: 'Carme', sans-serif;
+    font-size: 1vw;
+    font-style: italic;
+    text-align: center;
+    margin-left: 2vw;
+}
+
+/*footer - media queries - mobile*/
 @media screen and (max-width: 600px) {
     .h1-txt{
         font-size:8vw;
@@ -141,6 +153,13 @@ footer p {
     .footer_img{
         height: 12.9835vw;
         width: 13.0005vw;
-        margin-left: 14.5vw;
+        margin-left: 15vw;
+    }
+  }
+
+/*footer - media queries - tablet*/
+@media screen and (min-width: 500px) {
+    .footer_img{
+        margin-left: 11.5vw;
     }
   }
