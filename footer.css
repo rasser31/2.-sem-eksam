@@ -101,7 +101,7 @@ footer p {
 .footer_img{
     height: 2.9835vw;
     width: 3.0005vw;
-    margin-left: 13.9vw;
+    margin-left: 13.5vw;
 }
 
 /*footer - credit "created and hosted by Træksmeden ApS ©"*/
@@ -154,12 +154,5 @@ footer p {
         height: 12.9835vw;
         width: 13.0005vw;
         margin-left: 15vw;
-    }
-  }
-
-/*footer - media queries - tablet*/
-@media screen and (min-width: 500px) {
-    .footer_img{
-        margin-left: 11.5vw;
     }
   }
