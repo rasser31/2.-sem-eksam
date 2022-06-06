@@ -11,10 +11,12 @@ body{
 /*footer - baggrund*/
 footer { 
     background-color: black; 
-    padding:0.25vw 0vw 1vw 0vw ;
+    padding:1vw 0vw 1vw 2vw ;
     margin-top: 2vw;
     position: absolute;
     padding-bottom: 1vw;
+    width: 100%;
+
 }
 
 /*footer - row*/
@@ -28,8 +30,9 @@ footer {
 .h1-txt { 
     padding-top:0.75vw ; 
     margin-bottom:1vw ;
-    margin-left: 14vw;
-
+    margin-left: 15vw;
+    font-family: rama-gothic-m, sans-serif;
+    font-size: 4vw;
 }
 
 /*footer - brødtekst indstillinger*/
@@ -38,7 +41,8 @@ footer p {
     color:white; 
     padding-bottom:0vw; 
     margin-bottom:0.4vw;
-    
+    font-family: 'Carme', sans-serif ;
+    margin-left: 10vw;
 }
 
 /*footer - kontakt os indstillinger*/
@@ -64,7 +68,7 @@ footer p {
 
 /*footer - links til genveje*/
 .genveje {
-    margin-left: 14.250vw;
+    margin-left: 13.5vw;
     margin-bottom: -2vw;
 }
 
@@ -77,6 +81,7 @@ footer p {
     margin-left: 8.5vw;
     text-align: center;
     margin-top: 2vw;
+    font-family: 'Carme', sans-serif ;
 }
 
 .footer_ul_genveje li {
@@ -89,14 +94,53 @@ footer p {
 /*footer - følg os indstillinger*/
 .follow_us{
     margin-top: -10vw;
-    margin-left: 13vw;
+    margin-left: 13.9vw;
 }
 
 /*footer - ikon til facebooksiden*/
 .footer_img{
     height: 2.9835vw;
     width: 3.0005vw;
-    margin-left: 13vw;
+    margin-left: 13.9vw;
 }
 
+
 /*footer - media queries*/
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .h1-txt{
+        font-size:8vw;
+        font-family: rama-gothic-m, sans-serif;
+        margin-left: 18vw;
+    }
+
+    .footer p{
+        font-size: 2.5vw;
+        font-family: 'Carme', sans-serif ;
+    }
+
+    .genveje{
+        margin-left: 15vw;
+    }
+
+    .footer_ul_genveje{
+        font-size: 2.5vw;
+        margin-left: 8vw;
+        font-family: 'Carme', sans-serif ;
+    }
+
+    .footer_ul_genveje li {
+        padding:2.5vw 0vw 1vw 0vw  ;
+    }
+
+    .follow_us{
+            margin-top: 4vw;
+            margin-left: 24vw;
+    }
+
+    .footer_img{
+        height: 12.9835vw;
+        width: 13.0005vw;
+        margin-left: 14.5vw;
+    }
+  }
