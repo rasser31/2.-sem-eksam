@@ -305,11 +305,13 @@ header button:hover{
 
 .underOfferImg{
     float:right;
-    margin: 0%;
+    margin: 0;
     width: 100%;
     max-width: 20rem;
     height: auto;
     display:block;
+    margin-block-end: 20rem;
+    position: relative;
 }
 
 .underOfferImg2{

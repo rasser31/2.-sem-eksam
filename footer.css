@@ -12,11 +12,10 @@ body{
 footer { 
     background-color: black; 
     padding:-1vw 0vw 1vw 0vw;
-    margin-top: 0;
+    margin-block-start: 3rem;
     position: absolute;
     padding-bottom: 1vw;
     width: 100%;
-
 }
 
 /*footer - row*/
