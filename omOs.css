@@ -1,0 +1,440 @@
+/*Her har jeg stylet bodyen i min html, hvor jeg gerne vil have luft i venstre side*/
+body {
+    margin: 0;
+}
+
+.desktopHeader{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoBox{
+    width: 40%;
+}
+
+.logo{
+    width: 100%;
+}
+
+nav{
+    list-style: none;
+    padding: 0;
+
+    width: 50%;
+}
+
+.desktopHeader button{
+    display: inline-block; 
+    width: 15%;
+    height: 3.5vw;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px; margin-right: 10px;
+    
+    font-size: 1.8vw;
+    font-family: rama-gothic-m,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    background-color: white;
+    border: 0;
+
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+
+    cursor: pointer;
+}
+
+.desktopHeader button:hover{
+    background-color: black;
+    color: white;
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
+}
+
+
+
+.mobileHeader{
+    display: none;
+}
+
+
+
+
+
+
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 45px;
+
+    width: 20px;
+    height: 11px;
+    margin-right: 20px;
+
+    background-image: url('gallery2/Burgermenu_kode.png');
+    background-size: 100%;
+    
+    background-repeat: no-repeat;
+}
+
+.mobileLogo{
+    width: 250px;
+    margin-left: 40px;
+}
+
+.burgernav{
+    border-bottom: 1px solid black; border-top: 1px solid black;
+    
+    text-align: center;
+    font-family: Rama Gothic M;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.omOsMainPage{
+    border-top: 1px solid black;
+    padding-top: 20px;
+
+    padding-left: 10px; padding-right: 10px;
+}
+
+
+
+
+
+/*Her har jeg stylet selve boksens udseende*/
+.boks {
+    background-color: black;
+    border: 0.15vw solid red;
+    text-align: center;
+    color: white;
+    font-size: 2.5vw;
+    font-family: Rama Gothic M;
+    padding: 0vw 4vw;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5vw;
+}
+
+.boks h1{
+    margin: 0.5vw;
+    font-size: 3vw;
+}
+
+/*Her har jeg stylet flex kolonner*/
+.container {
+    display: flex;
+}
+
+/*Her har jeg stylet luften mellem boksen "Om os" og teksten nedenunder*/
+.text-col {
+    margin-top: 4vw;
+}
+
+/*Her har jeg stylet alle mine paragraffer*/
+.text-col p{
+    text-align: left;
+    font-size: 1,9vw;
+    font-family: carme;
+    margin: 0vw;
+    margin-top: 0vw;
+    margin-left: 5vw;
+}
+
+/*Her har jeg stylet alle mine overskrifter*/
+.text-col h2{
+    text-align: left;
+    font-size: 1,9vw;
+    font-family: libre Franklin, Bold Italic;
+    margin: 0vw;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+    margin-left: 5vw;
+}
+
+/*Her har jeg stylet 1 linje (linje 35 i html) som skulle stå for sig selv*/
+.høre {
+    text-align: left;
+    font-size: 1,9vw;
+    font-family: libre Franklin, Bold Italic;
+    margin: 0vw;
+    margin-top: 4vw;
+    margin-left: 5vw;
+}
+
+/*Her har jeg stylet "Kontakt" og "Fomular" knappernes margin så de er placeret rigtigt på siden*/
+.kf {
+    margin-top: 2vw;
+    margin-left: 5vw;
+}
+
+.kf a{
+    text-decoration: none;
+}
+
+/*Her har jeg stylet "Kontakt os" knappen*/
+.kontakt {
+    background-color: black;
+    text-align: left;
+    color: white;
+    border: none;
+    padding: 0.75vw 3.25vw;
+    margin-top: 2vw;
+    font-family: Hind Madurai;
+    font-size: 1vw;
+    /*Skal måske fjernes*/
+    font-weight: bold;
+}
+
+/*Her har jeg stylet "Udfyld formular" knappen*/
+.formular {
+    background-color: red;
+    text-align: left;
+    color: white;
+    border: none;
+    padding: 0.75vw 2.5vw;
+    margin-top: 1vw;
+    font-family: Hind Madurai;
+    font-size: 1vw;
+    /*Skal måske fjernes*/
+    font-weight: bold;
+}
+
+/*Her har jeg stylet billderne*/
+.adresse img,.vogn img,.logo img{
+    max-width: 60%;
+    align-items: center;
+    margin-bottom: 0.25vw;
+    margin-right: 19.25vw;
+    margin-left: 12.5vw;
+    object-position: left;
+}
+
+/*Her har jeg placeret Varevogns billedet på siden (Øverste billede til højre)*/
+.vogn {
+    margin-right: 2.25vw;
+    margin-left: 1.750vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+}
+
+/*Her har jeg placeret logoet på siden (Midterste billede til højre) */
+.logo {
+    margin-top: 0.75vw;
+    margin-right: 2.25vw;
+    margin-left: 2vw;
+}
+
+/*Her har jeg placeret adresse på siden (Nederste billede til højre)*/
+.adresse{
+    margin-top: 0.25vw;
+    margin-right: 2.25vw;
+    margin-left:1.750vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*styling af h1*/
+.galleriHeader {
+    text-align: center;
+    font-family: Rama Gothic M;
+    font-size: 4vw;
+    margin: 0.05vw;
+    margin-top: 50px;
+}
+
+.tekst {
+    position: relative;
+}
+
+/*her har jeg stylet galleriet som grid*/
+.img_galleri {
+    width: 80%;
+    margin: 5vw auto 2.5vw;
+    display: grid;
+    /*linjen under for det til at være responsive*/
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 0.95vw;
+    margin-top: 0.1vw;
+}
+
+/*linje 30 gør at når musen kommer over billederne skifter musen til pointer*/
+.img_galleri img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.img_galleri img:focus{
+    border-color: #000000;
+    box-shadow: 1rem 1rem 1rem black;
+}
+
+.img_galleri img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0.5rem 0.5rem 0.5rem black;
+}
+
+/*her styler jeg citat boksen*/
+.box {
+    background-color: black;
+    padding: 1vw;
+    align-items: center;
+    margin-left: 9.9vw;
+    margin-right: 9.9vw;
+    color: white;
+    font-family: 'Libre Franklin', ExtraLight Italic;
+    text-align: center;
+    font-size: 1.3vw;
+    margin-bottom: 0vw;
+}
+
+/*jeg kunne ikke for fonten til at virke så jeg lavede den manuelt light og italic*/
+.tekst_style {
+    font-family: Libre Franklin, ExtraLight Italic;
+    font-weight: lighter;
+    font-style: italic;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+
+/*Her laver jeg mobil versionen */
+
+/*fik hjælp fra disse for at komme frem til dette resultat*/
+/*https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/*/
+/*https://www.youtube.com/watch?v=cU9KJeDwdtQ*/
+/*https://www.youtube.com/watch?v=slmgTzry6AM*/
+/*https://www.youtube.com/watch?v=O3ipx3ZNY7A*/
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0%;
+
+        max-width: 390px;
+    }
+/*linje 71 gør at der kommer to columns*/
+    .img_galleri {
+        margin-top: 3vw;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+/*dette gør at de ikke vises på mobil størrelse fordi jeg har givet denne class inde i html*/
+    .mobil_no {
+        display: none;
+    }
+/*skifte bagrundsfarve og laver border*/
+    .box {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        border-style: solid;
+        border-color: black;
+    }
+
+    .galleriHeader {
+        font-size: 8vw;
+    }
+
+    .tekst_style {
+        font-size: 3.5vw;
+        color: black;
+        font-weight: none;
+    }
+
+    .mobileHeader{
+        display: block;
+    }
+
+    .desktopHeader{
+        display: none;
+    }
+
+    .imageBox{
+        display: none;
+    }
+
+    .omOsMainPage{
+        text-align: center;
+    }
+
+    .boks {
+        background-color: black;
+        border: 0.15vw solid red;
+        text-align: center;
+        color: white;
+        width: 30%;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .boks h1{
+        font-size: 30px;
+    }
+
+    .kf{
+        margin: 0;
+
+    }
+    
+    .text-col h2{
+        font-size: 1.3rem;
+    }
+
+    .text-col p{
+        font-size: 0.95rem;
+    }
+
+    .kontakt, .formular {
+        width: 35%;
+        margin-top: 1vw;
+        font-size: 3vw;
+        margin-top: 20px;
+        padding-left: 20px; padding-right: 20px;
+        padding-top: 5px; padding-bottom: 5px;
+
+        text-align: center;
+    }
+}

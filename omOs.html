@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Træksmeden ApS - Om os</title>
+    
+    <link rel="stylesheet" href="omOs.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/lru6wig.css"> <!-- Adobe font -->
+
+</head>
+<body>
+    <header class="desktopHeader">
+        <a class="logoBox" href="#">
+            <img class="logo" src="gallery2/firmanumre.jpg" alt="Logo">
+        </a>
+
+        <nav>
+            <button class="nav underline" onclick="navbarForside()">FORSIDE</button>
+            <button class="nav" onclick="navbarVitilbyder()">VI TILBYDER</button>
+            <button class="nav" onclick="navbarOmOs()">OM OS</button>
+            <button class="nav" onclick="navbarKotaktOs()">KONTAKT OS</button>
+            <button class="nav" onclick="navbarUdlejning()">UDLEJNING</button>
+        </nav>
+    </header>
+
+    <header class="mobileHeader">
+        <div class="topnav">
+            <a href="#home"><img class="mobileLogo" src="gallery2/mobileLogo.png" alt="Mobile Logo"></a>
+            <div id="myLinks">
+              <a class="burgernav" href="#">FORSIDE</a>
+              <a class="burgernav" href="#">VI TILBYDER</a>
+              <a class="burgernav" href="#">OM OS</a>
+              <a class="burgernav" href="#">KONTAKT OS</a>
+              <a class="burgernav" href="#">UDLEJNING</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </header>
+
+    <main class="omOsMainPage">
+        <!--Her har jeg lavet en class til boksen "Om os" så det var nemt at style den i css.-->
+        <section class="boks">
+            <h1>OM OS</h1>
+        </section>
+        <section>
+        <!--Jeg har lavet en class til grid for at kunne style tekst og billder sammen-->
+            <div class="container">
+        <!--Jeg har lavet en class til at kunne style marginen top mellem elementerne-->
+                <div class="text-col">
+                    <p>Hos Træksmeden ApS står faglig kompetence og god service, i højsædet. Du kan derfor altid forvente
+                        professionel rådgivning, der matcher dine behov. Vores nøgleværdier er viden, kvalitet og forståelse
+                        af dine behov.</p>
+                    <h2>Vi har kunden i fokus</h2>
+                    <p>Hos Træksmeden ApS er vi bevidste om, at alle kunder er forskellige, hvorfor vi leverer en bred vifte
+                        af specialløsninger. Vi har kort sagt en vision om at være et smedefirma med dig i fokus, hvor du
+                        har mulighed for at få et godt tilbud, til en konkurrencedygtig pris.</p>
+                    <h2>Kontakt os gerne for spørgsmål</h2>
+                    <p>For yderligere info, klik dig ind på fanen 'vi tilbyder'.
+                        Derudover besvarer vi gerne spørgsmål - både på mail, eller telefon. Vores kontaktoplysninger er
+                        tilgængelige under fanen 'kontakt os'.</p>
+        <!--Jeg har givet paragraffer en class for at kunne style den i cssen, for at den kunne stå for sig selv.-->
+                    <p class="høre">Vi ser frem til at høre fra dig.</p>
+        <!--Jeg har lavet en class til kontakt og formular for at kunne style dem sammen.-->
+                    <div class="kf">
+                        <a href="kontakt.html">
+        <!--Jeg har lavet en class til kontakt os for at kunne style selve knappen.-->
+                            <button class="kontakt"> Kontakt os </button>
+                        </a>
+                        <a href="formular.html">
+        <!--Jeg har lavet en class til kontakt os for at kunne style selve knappen.-->
+                            <button class="formular"> Udfyld formular </button>
+                        </a>
+                    </div>
+
+                </div>
+                <section class="imageBox">
+        <!--Jeg har lavet en class til Varevogns billdet, for at kunne style det enklte billede i css.-->
+                    <div class="vogn">
+                        <img src="image-kat/varevogn.png" alt="Billede af varevogn">
+                    </div>
+                    <div class="logo">
+        <!--Jeg har lavet en class til Logo billdet, for at kunne style det enklte billede i css.-->
+                        <img src="image-kat/logo.png" alt="Billede af logo">
+                    </div>
+                    <div class="adresse">
+        <!--Jeg har lavet en class til Adresse billdet, for at kunne style det enklte billede i css.-->
+                        <img src="image-kat/adresse.png" alt="Billede af adresse">
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <h1 class="galleriHeader">Galleri</h1>
+        <!--jeg har lavet en section med en class til citat boksen så jeg kan style den i css -->
+        <section class="box">
+            <h2 class="tekst_style">"Hos Træksmeden ApS, kan du se billeder af forskellige projekter vi har arbejdet med og
+                lidt mere."</h2>
+        </section>
+
+        <!--her under sætter jeg billederene ind på siden-->
+        <section class="galleri">
+            <div class="img_galleri">
+        <!--jeg har lavet billederene til links så de linker videre til en anden side-->
+                <a href="projekter.html">
+                    <img src="image - Anja/trappe1-com.png" alt="">
+                </a>
+
+                <a href="projekter.html">
+                    <img src="image - Anja/badehus1-com.png" alt="">
+                </a>
+
+                <a href="projekter.html">
+                    <img src="image - Anja/terrasse1-com.png" alt="">
+                </a>
+
+                <a href="projekter.html">
+                    <img src="image - Anja/Blomserkasser1-com.png" alt="">
+                </a>
+        <!--jeg har givet nogle af billederene en class "mobil_no" fordi de skal kunne fjernes på mobil størrelsen-->
+                <div class="mobil_no">
+                    <a href="værksted.html">
+                        <img src="image - Anja/værksted1-com.png" alt="">
+                    </a>
+                </div>
+                <div class="mobil_no">
+                    <a href="afejerne.html">
+                        <img src="image - Anja/af_ejerne-com.png" alt="">
+                    </a>
+                </div>
+                <div class="mobil_no">
+                    <a href="projekter.html">
+                        <img src="image - Anja/altan1-com.png" alt="">
+                    </a>
+                </div>
+                <div class="mobil_no">
+                    <a href="projekter.html">
+                        <img src="image - Anja/Spisebord_-com.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+
+
+
+
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+        }
+    </script>
+</body>
+</html>
