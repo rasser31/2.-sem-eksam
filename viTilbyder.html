@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="viTilbyder.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>Document</title>
+    <script src="main.js"></script>
+
+
+
+    <!-- The fonts we use -->
+    <link rel="stylesheet" href="https://use.typekit.net/lru6wig.css"> <!-- Adobe font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,200&display=swap" rel="stylesheet"> <!-- Google font - Libre Franklin -->
+    <link href="https://fonts.googleapis.com/css2?family=Carme&display=swap" rel="stylesheet"> <!-- Google font - Carme -->
+</head>
+<body>
+    <header>
+        <a class="logoBox" href="#">
+            <img class="logo" src="gallery/firmanumre.jpg" alt="Logo">
+        </a>
+
+        <nav>
+            <button class="nav" onclick="navbarForside()">FORSIDE</button>
+            <button class="nav underline" onclick="navbarVitilbyder()">VI TILBYDER</button>
+            <button class="nav" onclick="navbarOmOs()">OM OS</button>
+            <button class="nav" onclick="navbarKotaktOs()">KONTAKT OS</button>
+            <button class="nav" onclick="navbarUdlejning()">UDLEJNING</button>
+        </nav>
+    </header>
+    <main>
+        <section class="mainFront">
+            <section class="wrapper">
+                <div>
+                    <h1 class="OffersHeader">VI TILBYDER</h1>
+                        <h2 id="offerHeadText"></h2>
+                        <p id="offersText" class="OffersText">Vi udfører mange vidt forskellige typer opgaver. 
+                            <br>Her indgår Smedearbejde, Hydraulik, Syn, med mere. 
+                            <br><br>Tjek gerne siderne ud for at få mere information.</p>
+                </div>
+
+                    <div class="grid-container">
+                        <button onclick="showHideSmed()" class="offerBox">
+                            <img src="Images/Smedarbejde.png" alt="SmedarbejdeIcon" class="offerIcon">
+                        </button>
+
+                        <button onclick="showHideHyd()" class="offerBox"> 
+                            <img src="Images/Hydraulik.png" alt="HydraulikIcon" class="offerIcon">
+                        </button>
+                
+                        <button onclick="showHideSyn()" class="offerBox"> 
+                            <img src="Images/Syn.png" alt="SynIcon" class="offerIcon">
+                        </button>
+                            
+                        <button onclick="showHideCus()" class="offerBox">
+                            <img src="Images/Custom.png" alt="CustomIcon" class="offerIcon">
+                        </button>
+                    </div>
+                
+            </section>
+        </section>
+
+        <section>
+            <div id="Smedarbejde">
+                <img src="Images/Smedarbejde ex1.png" alt="Smedarbejde Billede eksempel 1" class="underOfferImg">   
+            <p class="underOfferText">Vi har tilsammen haft erfaring med smedarbejde i over 25 år, og har siden arbejdet med større og små projekter. Det har gjort at vi har stiftet os bekendtskab til selv de svære ting. Vi står inden for forskellige svejse, - montagearbejde, og priotere altid efter en løsning og din tilfredshed.
+                <br><br>Så hvis du har behov for at få lavet noget reparation eller montage så tøv ikke og tag fat i os, enten ved at kontakte os eller udfylde formularen.
+                </p>
+                <button class="frontpageButtons frontpageButtonBlack" onclick="window.location.href='https://www.hidesh.com';">
+                    Kontakt os</button>
+            <button class="frontpageButtons frontpageButtonRed" onclick="window.location.href='https://www.hidesh.com';">Udfyld formular</button>
+            </div>
+
+            <div id="Hydraulik">
+                <img src="Images/Hydraulik ex1.png" alt="Hydraulik Billede eksempel 1" class="underOfferImg">
+                <p class="underOfferText">Vi benytter os af vores viden til at kunne reparerer en del forskellige produkter, dette indebærer også hydraulikker.
+                    <br>
+                    Har du en slange som er sprunget og er ikke funktionel mere? Eller har du et hydraulik stempel som ikke er funktionel mere og har brug for at det bliver skiftet hurtigst muligt?
+                    <br>
+                    Vi arbejder med en del forskellige slanger, og stempler, både små og store.
+                    <br>
+                    Dette giver os muligheden for at arbejde på både større kraner, samt mindre minigravere. 
+                    <br><br>
+                    Så hvis du mangler en slange eller et stempel der skal skiftes, så kontakt os gerne gennem et kald, eller udfyld formularen som også kan findes på vores kontakt side
+                    </p>
+                    <button class="frontpageButtons frontpageButtonBlack" onclick="window.location.href='https://www.hidesh.com';">
+                        Kontakt os</button>
+                <button class="frontpageButtons frontpageButtonRed" onclick="window.location.href='https://www.hidesh.com';">Udfyld formular</button>
+                </div>
+
+            <div id="Syn">
+                <img src="Images/Syn ex1.png" alt="syn Billede eksempel 1" class="underOfferImg">
+                <p class="underOfferText">Vi tilbyder årlige lovpligtige eftersyn på kraner, lifte, wire/krog hejs samt el. Eftersynet bliver udført via en tjekliste der sikrer at dine kran til at være i god stand og udfører sig efter loven. Vi udfører efter dine ønsker og vi har mange års erfaring med eftersyn samt reparationer 
+                    Sikkerhedseftersynet udføreres altid under henvisning til gældende lovgivning. 
+                    <br><br>
+                    Vi tilbyder også at tage ud til kunden ellers er der mulighed for at komme forbi vores værksted.
+                    </p>
+
+                    <button class="frontpageButtons frontpageButtonBlack" onclick="window.location.href='https://www.hidesh.com';">
+                        Kontakt os</button>
+                <button class="frontpageButtons frontpageButtonRed" onclick="window.location.href='https://www.hidesh.com';">Udfyld formular</button>
+                </div>
+
+            <div id="Custom">
+                <img src="Images/Custom ex1.png" alt="Custom Billede eksempel 1" class="underOfferImg">
+                <p class="underOfferText">Vi benytter os meget af de frie valg, vores grænser ligger nemlig ikke kun i at skifte slanger, fremføre syn på lastvogne eller sikre forbindelsen mellem to punkter i din krans styresystem. Vi udfører også simplere opgaver, som kan vedrøre privatpersoner.
+                    Har du brug for et fiskestativ som skal laves? Eller står du at mangler en trappe til dit nye hjem.
+                    <br><br>
+                    Så hvis du står og mangler noget i dit nye hjem eller du har noget smedearbejde du mangler til dine hobbier eller andet. Så kontakt os gerne gennem et kald, eller udfyld formularen som også kan findes på vores kontakt side.
+                </p>
+            <button class="frontpageButtons frontpageButtonBlack" onclick="window.location.href='https://www.hidesh.com';">
+                    Kontakt os</button>
+            <button class="frontpageButtons frontpageButtonRed" onclick="window.location.href='https://www.hidesh.com';">Udfyld formular</button>
+                <img src="Images/Custom ex2.png" alt="Custom Billede eksempel 2" class="underOfferImg2">
+                    <p class="underOfferText underOfferText2">Vi har igennem tiden udført mange forskellige opgaver. Hvor nogle af vores seneste er et fiskestangsstativ til en båd. Der er blevet lagt langt tid, ind i projektet med nøje målinger og præcise svejsninger. Vi har også udført opgaver til noget større, dette indebærer KBH Hovedbanegård. Her har vi fremstillet nogle aluminiums plader til rulletrapperne som kan findes mange steder ned til platformene. Vi rammer da ikke kun den ene gruppe af mennesker, men dem alle.
+                        <br><br>
+                        Så hvis du har noget der skal fremstilles, så tag gerne kontakt til os genne vores formular som kan findes på vores kontakt side.</p> 
+                    </div>
+        </section>
+        
+
+
+
+    </main>
+    <footer class="footer">
+        <div class="container buttom_border">
+            <div class="row">
+                <!--Div class betydning: col = colone, sm = smallscreens, md = medium screens, 
+                    col-sm-4 = 1/3 screen on tablet, col-md = ikke defineret, hvilket betyder at 
+                    at den er default, col-12 = 12 columns (hvilket er standard). Se ellers denne hjemmeside
+                    https://stackoverflow.com/questions/24175998/meaning-of-numbers-in-col-md-4-col-xs-1-col-lg-2-in-bootstrap -->
+
+                <div class="col-sm-4 col-md col-sm-4  col-12 col">
+
+                    <!--Footer - om os section - overskrift -->
+                    <h1 class="footer-overskrift h1-txt">
+                        OM OS
+                    </h1>
+
+                    <!--Footer - om os section - brødtekst -->
+                    <p class="p-text-omos">
+                        Vi hos TRÆKSMEDEN ApS er 
+                        <br>
+                        et meget hånddrevet firma.
+                        <br> <br>
+                        Vi får opgaven løst med god 
+                        <br>
+                        kvalitet i ordentlig tid.
+                    </p>
+
+                </div>
+
+                    <!--Div class betydning: col = colone, sm = smallscreens, md = medium screens, 
+                    col-sm-4 = 1/3 screen on tablet, col-md = ikke defineret, hvilket betyder at 
+                    at den er default, col-12 = 12 columns (hvilket er standard). Se ellers denne hjemmeside
+                    https://stackoverflow.com/questions/24175998/meaning-of-numbers-in-col-md-4-col-xs-1-col-lg-2-in-bootstrap -->
+        
+                <div class="kontakt_os col-sm-4 col-md col-sm-4  col-12 col">
+
+                    <!--Footer - kontakt os section - overskrift -->
+                    <h1 class="footer-overskrift h1-txt">
+                        KONTAKT OS
+                    </h1>
+
+                    <!--Footer - kontakt os section - brødtekst -->          
+                    <p class="p-text-kontaktos">
+                    Tlf.: 20 31 11 60 el. 20 78 80 27
+                    <br> <br>
+                    Mail: denlillelokalesmed@privat.dk
+                    <br> <br>
+                    Adresse: Kyndbyvej 56, 3630 Jægerspris
+                    <br> <br>
+                    CVR: 33518684
+                    </p>
+
+                </div>
+
+                    <!--Div class betydning: col = colone, sm = smallscreens, md = medium screens, 
+                    col-sm-4 = 1/3 screen on tablet, col-md = ikke defineret, hvilket betyder at 
+                    at den er default, col-12 = 12 columns (hvilket er standard). Se ellers denne hjemmeside
+                    https://stackoverflow.com/questions/24175998/meaning-of-numbers-in-col-md-4-col-xs-1-col-lg-2-in-bootstrap -->
+
+                <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+
+                    <!--Footer - genveje section - overskrift -->  
+                    <h1 class="genveje footer-overskrift h1-txt">
+                    GENVEJE
+                    </h1>
+                    
+                    <!--Footer - genveje section links - begyndelse --> 
+                    <ul class="footer_ul_genveje">
+
+                        <!--Footer - genveje section links - Forside --> 
+                    <li>
+                        <a href="forside.html">FORSIDE</a>
+                    </li>
+                    
+                    
+                        <!--Footer - genveje section links - Vi tilbyder --> 
+                    <li>
+                        <a href="vi_tilbyder.html">VI TILBYDER</a>
+                    </li>
+
+                        <!--Footer - genveje section links - Om os --> 
+                    <li>
+                        <a href="om_os.html">OM OS</a>
+                    </li>
+                    
+                        <!--Footer - genveje section links - Kontakt os --> 
+                    <li>
+                        <a href="kontakt_os.html">KONTAKT OS</a>
+                    </li> 
+
+                        <!--Footer - genveje section links - Udlejning --> 
+                    <li>
+                        <a href="udlejning.html">UDLEJNING</a>
+                    </li>
+                        <!--Footer - genveje section links - Udlejningsbetingelser --> 
+                    <li>
+                        <a href="udlejningsbetingelser.html">UDLEJNINGSBETINGELSER</a>
+                    </li> 
+
+                    </ul> 
+                </div>
+                <!--Footer - genveje section links - slut --> 
+
+                
+                <div class=" col-sm-4 col-md  col-12 col">
+                    <!--Div class betydning: col = colone, sm = smallscreens, md = medium screens, 
+                    col-sm-4 = 1/3 screen on tablet, col-md = ikke defineret, hvilket betyder at 
+                    at den er default, col-12 = 12 columns (hvilket er standard). Se ellers denne hjemmeside
+                    https://stackoverflow.com/questions/24175998/meaning-of-numbers-in-col-md-4-col-xs-1-col-lg-2-in-bootstrap -->
+
+                <!--Footer - Følg os section - begyndelse --> 
+                    <!--Footer - Følg os section - overskrift --> 
+                    <h1 class="follow_us footer-overskrift h1-txt">
+                        FØLG OS
+                    </h1>
+
+                    <!--Footer - Følg os section - ikon link til facebooksiden -->
+                    <ul class="social_footer_ul">
+                        <a href="https://www.facebook.com/Tr%C3%A6ksmeden-IS-1684092575217575/?ref=page_internal">
+                            <img class="footer_img" src="Ikoner/Facebook-ikon.png" alt="Link to Traeksmeden's facebook page">
+                        </a>
+                    </ul>
+                </div>
+
+            </div>
+            <!--Footer - Slutningen --> 
+        </div>  
+    </footer>
+    <script>
+        function navbarForside(){
+            window.location.href = "http://www.w3schools.com";
+        }
+        function navbarVitilbyder(){
+            window.location.href = "http://www.w3schools.com";
+        }
+        function navbarOmOs(){
+            window.location.href = "http://www.w3schools.com";
+        }
+        function navbarKotaktOs(){
+            window.location.href = "http://www.w3schools.com";
+        }
+        function navbarUdlejning(){
+            window.location.href = "http://www.w3schools.com";
+        }
+    </script>
+</body>
+</html>
