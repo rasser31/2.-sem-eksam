@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 body{
     margin: 0;
@@ -6,6 +7,10 @@ body{
 /*footer begyndelse*/
 /*footer - overskrift facven*/
 
+=======
+/*footer begyndelse*/
+/*footer - overskrift facven*/
+>>>>>>> Stashed changes
 .footer-overskrift { 
     color:#FFF;
 }
@@ -16,7 +21,10 @@ footer {
     background-color: black; 
     min-height:12.5vw; 
     padding:0.25vw 0vw 2.5vw 0vw ;
+<<<<<<< Updated upstream
     
+=======
+>>>>>>> Stashed changes
 }
 
 /*footer - row*/
