@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+
+    max-width: 120rem;
+}
+
+header{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoBox{
+    width: 40%;
+}
+
+.logo{
+    width: 100%;
+}
+
+nav{
+    list-style: none;
+    padding: 0;
+
+    width: 50%;
+}
+
+header button{
+    display: inline-block; 
+    width: 15%;
+    height: 5.5vw;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px; margin-right: 10px; margin-top: 15px;
+    
+    font-size: 1.8vw;
+    font-family: rama-gothic-m,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    background-color: white;
+    border: 0;
+
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+    cursor: pointer;
+}
+
+header button:hover{
+    background-color: black;
+    color: white;
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
+}
+
+.mainFront{
+    width: 100%;
+    height: 550px;
+    background-image: url('gallery/background.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    padding-top: 64px;
+}
+
+.frontpageHeader{
+    font-size: 9rem;
+    font-family: rama-gothic-m,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+
+    margin: 0;
+    width: 675px;
+
+    padding-left: 140px;
+}
+
+.frontpageText{
+    font-size: 2rem;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 200;
+    color: white;
+
+    width: 675px;
+    margin: 0;
+
+    padding-left: 140px;
+}
+
+.welcomeSection{
+    padding-left: 10%; padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+
+    background-image: url('gallery/hammerWrench.png');
+    background-repeat: no-repeat;
+    background-position: 600px 150px;
+    background-size: 800px;
+}
+
+.photoshoot{
+    width: 400px;
+    height: 640px;
+}
+
+.welcomeTextBox{
+    width:  700px;
+    padding-left: 225px;
+}
+
+.welcomeHeader{
+
+    height: 100px;
+    margin: 0;
+    margin-top: 175px;
+
+    font-size: 4vw;
+    font-family: rama-gothic-m,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.welcomeText{
+    width: 500px;
+    margin: 0;
+
+    font-family: 'Carme', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.gallerySection{
+    margin-left: 10%; margin-right: 10%; margin-top: 150px;
+
+    border: 1px solid black;
+}
+
+.quoteBox{
+    font-size: 1.5rem;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.galleryPicBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galleryPics{
+    height: 250px;
+    width: 250px;
+
+    margin: 10px;
+}
+
+.textBox{ 
+    grid-area: facebookText;
+    max-width: 760px;
+}
+
+.facebookPost{ 
+    grid-area: facebookPost; 
+    max-width: 760px;
+
+    text-align: right;
+}
+
+.feedbackSection{
+    margin-left: 15%; margin-right: 15%; margin-top: 200px;
+    width: 70%;
+
+    display: grid;
+    grid-template-areas: 
+    'facebookText facebookPost';
+}
+
+.facebookHeader{
+    margin: 0;
+
+    font-size: 4vw;
+    font-family: rama-gothic-m,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.facebookText{
+    font-family: 'Carme', sans-serif;
+    font-size: 1.56vw;
+    width: 31.25rem;
+}
+
+
+.facebookImg{
+    width: 32.29vw;
+}
+
+.textBox a{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    padding-left: 15vw; padding-right: 15vw;
+}

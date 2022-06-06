@@ -1,0 +1,97 @@
+
+body{
+    margin: 0;
+}
+
+/*footer begyndelse*/
+/*footer - overskrift facven*/
+
+.footer-overskrift { 
+    color:#FFF;
+}
+
+/*footer - baggrund*/
+footer { 
+    width:100%; 
+    background-color: black; 
+    min-height:12.5vw; 
+    padding:0.25vw 0vw 2.5vw 0vw ;
+    
+}
+
+/*footer - row*/
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+/*footer - overskrift indstillinger*/
+.h1-txt { 
+    padding-top:0.75vw ; 
+    margin-bottom:1vw ;
+    margin-left: 14.500vw;
+
+}
+/*footer - brødtekst indstillinger*/
+footer p { 
+    font-size:1.5vw; 
+    color:white; 
+    padding-bottom:0vw; 
+    margin-bottom:0.4vw;
+    
+}
+
+/*footer - kontakt os indstillinger*/
+.kontakt_os{
+    margin-left: 5vw;
+}
+
+/*footer - om os indstillinger*/
+.p-text-omos { 
+    padding-bottom:0.75vw ;
+    text-align: center;
+    width: 100%;
+    margin-left: 5.2vw;
+    
+}
+
+/*footer - kontakt os indstillinger*/
+.p-text-kontaktos{
+    padding-bottom:0.75vw ;
+    text-align: center;
+    margin-left: 6.75vw;
+}
+
+/*footer - links til genveje*/
+.footer_ul_genveje { 
+    margin:0vw ; 
+    list-style-type:none ; 
+    font-size:1.5vw; 
+    padding:0vw 0vw 0.5vw 0vw ; 
+    text-decoration: none;
+    margin-left: 8.5vw;
+    text-align: center;
+}
+
+.footer_ul_genveje li {
+    padding:1.525vw 0vw 0.25vw 0vw;
+}
+.footer_ul_genveje li a{ 
+    color:white;
+}
+
+/*footer - følg os indstillinger*/
+.follow_us{
+    margin-top: -10vw;
+    margin-left: 14vw;
+}
+
+/*footer - ikon til facebooksiden*/
+img{
+    height: 2.9835vw;
+    width: 3.0005vw;
+    margin-left: 14vw;
+}
+
+/*footer - media queries*/
