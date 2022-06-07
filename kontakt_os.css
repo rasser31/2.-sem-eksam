@@ -134,13 +134,33 @@ h3{
     position: relative;
 }
 
-
 .childContainerMap{
     display: inline-block;
     vertical-align:middle;
     margin-right: 0rem;
     position:relative;
 }
+
+/* Google maps - Her benytter vi https://google-map-generator.com, som har generet koden til Google maps med  */
+.mapouter{
+    position:relative;
+    text-align:center;
+    height:550px;
+    width:530px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:550px;
+    width:530px;
+}
+
+iframe.frameMaps{
+    
+}
+
+/*Card container med Den røde og sort blok(Kontakt formular)*/
 
 .centerContainer{
     margin: auto;
