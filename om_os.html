@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Træksmeden ApS - Om os</title>
     
-    <link rel="stylesheet" href="omOs.css">
+    <link rel="stylesheet" href="om_os.css">
     <link rel="stylesheet" href="footer.css">
 
     <link rel="stylesheet" href="https://use.typekit.net/lru6wig.css"> <!-- Adobe font -->
@@ -19,10 +19,10 @@
         </a>
 
         <nav>
-            <button class="nav underline" onclick="navbarForside()">FORSIDE</button>
+            <button class="nav" onclick="navbarForside()">FORSIDE</button>
             <button class="nav" onclick="navbarVitilbyder()">VI TILBYDER</button>
-            <button class="nav" onclick="navbarOmOs()">OM OS</button>
-            <button class="nav" onclick="navbarKotaktOs()">KONTAKT OS</button>
+            <button class="nav underline" onclick="navbarOmOs()">OM OS</button>
+            <button class="nav" onclick="navbarKontaktOs()">KONTAKT OS</button>
             <button class="nav" onclick="navbarUdlejning()">UDLEJNING</button>
         </nav>
     </header>
@@ -31,10 +31,10 @@
         <div class="topnav">
             <a href="#home"><img class="mobileLogo" src="gallery2/mobileLogo.png" alt="Mobile Logo"></a>
             <div id="myLinks">
-              <a class="burgernav" href="#">FORSIDE</a>
-              <a class="burgernav" href="#">VI TILBYDER</a>
-              <a class="burgernav" href="#">OM OS</a>
-              <a class="burgernav" href="#">KONTAKT OS</a>
+              <a class="burgernav" href="index.html">FORSIDE</a>
+              <a class="burgernav" href="vi_tilbyder.html">VI TILBYDER</a>
+              <a class="burgernav" href="om_os.html">OM OS</a>
+              <a class="burgernav" href="kontakt_os.html">KONTAKT OS</a>
               <a class="burgernav" href="#">UDLEJNING</a>
             </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -68,11 +68,11 @@
                     <p class="høre">Vi ser frem til at høre fra dig.</p>
         <!--Jeg har lavet en class til kontakt og formular for at kunne style dem sammen.-->
                     <div class="kf">
-                        <a href="kontakt.html">
+                        <a href="kontakt_os.html">
         <!--Jeg har lavet en class til kontakt os for at kunne style selve knappen.-->
                             <button class="kontakt"> Kontakt os </button>
                         </a>
-                        <a href="formular.html">
+                        <a href="kontakt_os.html">
         <!--Jeg har lavet en class til kontakt os for at kunne style selve knappen.-->
                             <button class="formular"> Udfyld formular </button>
                         </a>
@@ -218,18 +218,18 @@
 
                         <!--Footer - genveje section links - Forside --> 
                     <li>
-                        <a href="forside.html">FORSIDE</a>
+                        <a href="index.html">FORSIDE</a>
                     </li>
                     
                     
                         <!--Footer - genveje section links - Vi tilbyder --> 
                     <li>
-                        <a href="viTilbyder.html">VI TILBYDER</a>
+                        <a href="vi_tilbyder.html">VI TILBYDER</a>
                     </li>
 
                         <!--Footer - genveje section links - Om os --> 
                     <li>
-                        <a href="omOs.html">OM OS</a>
+                        <a href="om_os.html">OM OS</a>
                     </li>
                     
                         <!--Footer - genveje section links - Kontakt os --> 
@@ -298,6 +298,28 @@
         } else {
             x.style.display = "block";
         }
+        }
+
+        function navbarForside(){
+            window.location.href = "index.html";
+        }
+        function navbarVitilbyder(){
+            window.location.href = "vi_tilbyder.html";
+        }
+        function navbarOmOs(){
+            window.location.href = "om_os.html";
+        }
+        function navbarKontaktOs(){
+            window.location.href = "kontakt_os.html";
+        }
+        function navbarUdlejning(){
+            window.location.href = "#";
+        }
+        function kontaktOs(){
+            window.location.href = "kontakt_os.html";
+        }
+        function formular(){
+            window.location.href = "kontakt_os.html";
         }
     </script>
 </body>
