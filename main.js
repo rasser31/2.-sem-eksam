@@ -38,3 +38,22 @@ function showHideCus(){
     document.getElementById("offersText").style.paddingTop = "20px";
     document.getElementById("offerHeadText").innerHTML ="Custom"
 }
+
+function alertButton(){
+    var fname = document.forms["contactForm"]["first-name"].value;
+    var lname = document.forms["contactForm"]["last-name"].value;
+    var add = document.forms["contactForm"]["address"].value;
+    var hmember = document.forms["contactForm"]["house-number"].value;
+    var city = document.forms["contactForm"]["city"].value;
+    var zcode = document.forms["contactForm"]["zip-code"].value;
+    var email = document.forms["contactForm"]["e-mail"].value;
+    var phone = document.forms["contactForm"]["phone"].value;
+    var msg = document.forms["contactForm"]["message"].value;
+
+    if(fname == "" || lname == "" || add == "" || hmember == "" || city == "" || zcode == "" || email == "" || phone == "") {
+        alert("Felterne skal udfyldes");
+        return false
+    } else {
+        alert("Din besked er blevet sendt!")
+    } 
+}

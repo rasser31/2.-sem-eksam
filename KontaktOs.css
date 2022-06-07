@@ -1,0 +1,425 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+/*header delen til navbare*/
+header{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoBox{
+    width: 40%;
+}
+
+.logo{
+    width: 100%;
+}
+
+nav{
+    list-style: none;
+    padding: 0;
+
+    width: 50%;
+}
+
+header button{
+    display: inline-block; 
+    width: 15%;
+    height: 3.5vw;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px; margin-right: 10px;
+    
+    font-size: 1.8vw;
+    font-family: rama-gothic-m,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    background-color: white;
+    border: 0;
+
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+
+    cursor: pointer;
+}
+
+header button:hover{
+    background-color: black;
+    color: white;
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
+}
+
+/*main tema*/
+
+h1{
+    font-family: rama-gothic-m,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    font-size: 9.375rem;
+    letter-spacing: 0.3rem;
+    text-shadow: 0px 3px 6px #00000062;
+}
+
+h2{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.fpContainer{
+    width: 48.375rem;
+    height: 272px;
+    margin-left: 140px;
+}
+
+.grayContainer{
+    display: block;
+    width: 100%;
+    background-color: #F2F2F2;
+    height: 1097px;
+}
+
+/* kontakt os */
+.boks {
+    background-color: black;
+    border: 0.20rem solid red;
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    font-family: Rama Gothic M;
+    font-weight: 600;
+    padding: 0 1rem;
+    text-decoration: solid;
+    display: inline-block;
+    margin-left: 10rem;
+}
+
+h3{
+    font-size: 2rem;
+    margin: auto;
+}
+
+.kontaktText{
+    font-family: 'Carme', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: justify;
+    margin: auto;
+}
+
+.grid-parentContainer{
+    display: grid;
+    justify-content: center;
+    column-gap: 1rem;
+    padding: 2rem 2rem;
+}
+
+.childContainerText{
+    display:inline-block ;
+    margin-inline-start: 3rem;
+    margin-inline-end: 2rem;
+    margin-right: 20px;
+    position: relative;
+}
+
+
+.childContainerMap{
+    display: inline-block;
+    vertical-align:middle;
+    margin-right: 0rem;
+    position:relative;
+}
+
+.centerContainer{
+    margin: auto;
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    max-width: 100%;
+    column-gap: 1rem;
+    justify-content: center;
+}
+
+.cardContact{
+    border: 1px solid silver;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: grid;
+    
+    /* Create four rows.
+    The first two and the last will fill the available space, 
+    while the 3rd row (message) is set at 150px */
+    /*grid-template-rows: 3.8rem 1fr 1fr 1fr 1fr 10rem 3.5rem;*/
+}
+
+.cardText{
+    border: 1px solid silver;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: red;
+}
+
+h1.cardHeaderText{
+    font-size:7rem; 
+    text-align: center; 
+    color: white; 
+    margin-bottom:-2rem; 
+    margin-top: 2rem;
+}
+
+p.cardUnderText{
+    font-size: 2rem; 
+    color: white; 
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+}
+
+.textContainer {
+    margin: 0;
+    /* Span both columns */
+    grid-column: span 2;
+    
+  }
+  
+  .buttonContainer {
+    /* Span both columns */
+    grid-column: span 2;
+  }
+
+  .headerText{
+    /* Span both columns */
+    grid-column: span 2;
+    font-size: 5rem;
+    font-family: rama-gothic-m,sans-serif;
+    font-weight: 600; 
+    text-align: center;
+    color: white;
+  }
+
+  .Input {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2;
+    margin: 0;
+    overflow: visible;
+    padding-bottom: 0.01rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    padding-top: 0.1rem;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    width: 20rem;
+  }
+  
+  .Input:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.5);
+  }
+  
+  .Label {
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;
+    padding-bottom: 0.25rem;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .Button {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-weight: 600;
+    border-radius: 0.3rem;
+    padding: 1rem 7rem;
+    margin: 0;
+  }
+  
+  .Button:hover {
+    border-color: #b5b5b5;
+  }
+  
+  .Button:focus {
+    outline: none;
+    border-color: #485fc7;
+    color: #363636;
+    box-shadow: 0 0 0 0.125em rgba(72, 95, 199, 0.25);
+  }
+
+  /*MediaQueries for responsivehed*/
+  
+
+  /* på skærme der mindre end 700px*/
+  @media screen and (max-width: 700px){
+      .boks{
+        text-align: center;
+        color: white;
+        font-size: 3rem;
+        display: inline-block;
+        justify-content: center;
+        margin-left:50%;
+        margin-right: 50%;
+      }
+
+      .grid-parentContainer{
+        grid-template-rows: auto auto;
+    }
+
+    .grid-container{
+        grid-template-rows: auto auto;
+    }
+/*kontakt form info*/
+    h1.cardHeaderText{
+        font-size: 3rem;
+    }
+    p.cardUnderText{
+        font-size: 1.5rem;
+    }
+    
+    .cardText{
+        width: 80%;
+        height: 550px;
+    }
+
+    /*Kontakt form*/
+    .cardContact{
+        width: 80%;
+        height: 550px;
+        gap: 0.5rem;
+        
+        display: grid;
+        grid-template-columns: (2,1fr);
+        /* Create four rows.
+        The first two and the last will fill the available space, 
+        while the 3rd row (message) is set at 150px */
+        /*grid-template-rows: 3.8rem 1fr 1fr 1fr 1fr 10rem 3.5rem;*/
+    }
+
+
+    .Input {
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 2;
+        margin: 0;
+        padding-bottom: 0.01rem;
+        padding-left: 0.1rem;
+        padding-right: -1rem;
+        padding-top: 0.1rem;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 0.5rem;
+        width: 9rem;
+        justify-content: center;
+        grid-column: span 2;
+      }
+      
+      .Input:focus {
+        outline: none;
+        box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.5);
+      }
+      
+      .Label {
+        font-family: 'Libre Franklin', sans-serif;
+        color: white;
+        padding-bottom: 0.25rem;
+        font-weight: 600;
+        text-align: left;
+      }
+    
+      .Button {
+        background-color: rgb(255, 0, 0);
+        color: white;
+        font-weight: 600;
+        border-radius: 0.3rem;
+        padding: 1rem 7rem;
+        margin: 0;
+      }
+      
+      .Button:hover {
+        border-color: #b5b5b5;
+      }
+      
+      .Button:focus {
+        outline: none;
+        border-color: #485fc7;
+        color: #363636;
+        box-shadow: 0 0 0 0.125em rgba(72, 95, 199, 0.25);
+      }
+
+
+
+
+  }
+  
+/* på skærme over 700px*/
+  @media screen and (min-width: 700px){
+
+      .grid-parentContainer{
+        grid-template-columns: auto auto;
+    }
+
+    .grid-container{
+        grid-template-columns: auto auto;
+    }
+
+    .cardContact{
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+        padding-left: 1rem;
+        padding-right: 3.5rem;
+        width: 40rem;
+        height: 830px;
+        padding: 1px 2px;
+    }
+
+    .cardText{
+        width: 40rem;
+        height: 830px;
+    }
+
+    .Input {
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 2;
+        margin: 0;
+        overflow: visible;
+        padding-bottom: 0.01rem;
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+        padding-top: 0.1rem;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 0.5rem;
+        width: 19rem;
+      }
+
+  }
+

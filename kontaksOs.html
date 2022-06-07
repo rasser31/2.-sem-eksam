@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="KontaktOs.css">
+    <link rel="stylesheet" href="footer.css">
+    
+    <title>Træksmeden ApS</title>
+    <link rel="icon" type="image/x-icon" href="gallery/rund_favicon.png">
+
+    <!-- The fonts we use -->
+    <link rel="stylesheet" href="https://use.typekit.net/lru6wig.css"> <!-- Adobe font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,200&display=swap" rel="stylesheet"> <!-- Google font - Libre Franklin -->
+    <link href="https://fonts.googleapis.com/css2?family=Carme&display=swap" rel="stylesheet"> <!-- Google font - Carme -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@700&display=swap" rel="stylesheet"> <!-- Google font - Hindi Madurai -->
+
+    <!--Scripts-->
+    <script src="main.js"></script>
+
+</head>
+<body>
+    <header>
+        <a class="logoBox" href="#">
+            <img class="logo" src="gallery/firmanumre.jpg" alt="Logo">
+        </a>
+
+        <nav>
+            <button class="nav underline" onclick="navbarForside()">FORSIDE</button>
+            <button class="nav" onclick="navbarVitilbyder()">VI TILBYDER</button>
+            <button class="nav" onclick="navbarOmOs()">OM OS</button>
+            <button class="nav" onclick="navbarKotaktOs()">KONTAKT OS</button>
+            <button class="nav" onclick="navbarUdlejning()">UDLEJNING</button>
+        </nav>
+    </header>
+    <main>
+        <div class="boks"> KONTAKT OS</div>
+   
+    <div class="grid-parentContainer">
+        <div class="childContainerText">
+            <p class="kontaktText">
+                Har du lyst til at høre mere eller er du interesseret i et uforpligtende tilbud på dit projekt?<br> Vi vil gerne drøfte dine behov for dit projekt og give dig et uforpligtende tilbud.
+                <br>Så vær ikke bange for at give et kald.
+            </p>
+                <p class="kontaktText">
+                    <br>Vi kan blive træffet i alle ugens hverdage fra <b>07.00 - 16.30</b> enten på telefon eller e-mail.</p>
+                
+                <p class="kontaktText">
+                    <br><strong>Kontaktoplysninger</strong></p>
+                
+                <p class="kontaktText"> 
+                    <br><strong>Træksmeden ApS</strong><br>
+                    Kyndbyvej 56, 3630 Jægerspris<br>
+                    CVR: 33518684 </p>
+                
+                <p class="kontaktText">
+                    <br><strong>Zeth - Ejer</strong>
+                    <br>Tlf: 20 31 11 60 
+                    <br>E-mail: denlillelokalesmed@privat.dk </p>
+                    
+                <p class="kontaktText">
+                    <br><strong>Morten - Ejer</strong>
+                    <br>Tlf: 20 78 80 27 
+                    <br>E-mail: denlillelokalesmed@privat.dk </p>
+        </div>
+        <div class="childContainerMap">
+            <div class="mapouter"> 
+                <div class="gmap_canvas">
+                    <iframe width="530" height="550" id="gmap_canvas" src="https://maps.google.com/maps?q=Kyndbyvej%2056,%203630%20J%C3%A6gerspris&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <br>
+                    <style>.mapouter{position:relative;text-align:center;height:550px;width:530px;}</style>
+                    <a href="https://www.embedgooglemap.net">embedded maps</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:550px;width:530px;}</style>
+                </div>
+            </div>
+        </div> 
+    </div>
+    
+
+    <section>
+            <div class="centerContainer">
+                <h1 style="font-size: 5rem ;">Skriv til os</h1>
+                <div class="grid-container">
+                    <div class="cardText">
+                        <h1 class="cardHeaderText">Udfyld formularen</h1>
+                        <p class="cardUnderText">
+                            Har du nogle generelle spørgsmål eller ønsker du at søge job, så bør du kontakte os via email på denlillelokalesmed@privat.dk eller direkte via vores mailformular her på siden.
+                            <br><br>
+
+                            Brug også vores mailformular til at få et tilbud om dit opkommende projekt. 
+                            <br><br>
+                            Er du ikke sikker på om vi har modtaget din mail, kan du kontakte os på tlf. 20 31 11 60 eller 20 78 80 27.
+                            <br><br>
+                            Du bliver kontaktet hurtigst muligt.
+                            <br><br>
+                            Tak for din henvendelse</p>
+                    </div>
+                <form name="contactForm">   
+                    <div class="cardContact" style="background-color: rgb(0, 0, 0);">
+                        <div class="headerText">Skriv til os</div>
+                        <div class="inputContainer">
+                            <label for="first-name" class= "Label">Fornavn</label>
+                            <input 
+                                name="first-name"
+                                class="Input"
+                                type="text"
+                                placeholder=""
+                                required 
+                            />
+                        </div>
+                        <div class="inputContainer">
+                            <label for="last-name" class="Label">Efternavn</label>
+                                <input 
+                                name="last-name"
+                                class="Input"
+                                type="text"
+                                placeholder=""
+                                required 
+                                />
+                        </div>
+                        <div class="inputContainer">
+                            <label for="address" class="Label">Adresse</label>
+                                <input 
+                                name="address"
+                                class="Input"
+                                type="text"
+                                placeholder=""
+                                required 
+                                />
+                        </div>
+                            
+                        <div class="inputContainer">
+                            <label for="house-number" class="Label">Husnummer</label>
+                                <input 
+                                name="house-number"
+                                class="Input"
+                                type="text"
+                                placeholder=""
+                                required 
+                                />
+                        </div>
+
+                        <div class="inputContainer">
+                            <label for="city" class="Label">By</label>
+                                <input 
+                                name="city"
+                                class="Input"
+                                type="text"
+                                placeholder=""
+                                required 
+                                />
+                        </div>
+                        
+                        <div class="inputContainer">
+                            <label for="zip-code" class="Label">Postnummer</label>
+                                <input 
+                                name="zip-code"
+                                class="Input"
+                                type="text"
+                                placeholder=""
+                                required 
+                                />
+                        </div>
+                        
+                        <div class="inputContainer">
+                            <label for="e-mail" class="Label">E-mail</label>
+                                <input 
+                                name="e-mail"
+                                class="Input"
+                                type="text"
+                                placeholder=""
+                                required 
+                                />
+                        </div>
+                        
+                        <div class="inputContainer">
+                            <label for="phone" class="Label">Telefon nummer</label>
+                                <input 
+                                name="phone"
+                                class="Input"
+                                type="text"
+                                placeholder=""
+                                required 
+                                />
+                        </div>
+
+
+                        
+                        <div class="textContainer">
+                            <label for="message" class="Label"></label>
+                                <textarea
+                                    class="Input"
+                                    rows="5"
+                                    cols="200"
+                                    maxlength="1200"
+                                    name="message"
+                                    placeholder="Emne - Besked"
+                                    required
+                                ></textarea>
+                        </div>
+                        <div class="buttonContainer">
+                            <button onclick="alertButton()" type="submit" class="Button">Send Besked</button></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer class="footer">
+        <div class="container buttom_border">
+            <div class="row">
+                <!--Div class betydning: col = colone, sm = smallscreens, md = medium screens, 
+                    col-sm-4 = 1/3 screen on tablet, col-md = ikke defineret, hvilket betyder at 
+                    at den er default, col-12 = 12 columns (hvilket er standard). Se ellers denne hjemmeside
+                    https://stackoverflow.com/questions/24175998/meaning-of-numbers-in-col-md-4-col-xs-1-col-lg-2-in-bootstrap -->
+
+                <div class="col-sm-4 col-md col-sm-4  col-12 col">
+
+                    <!--Footer - om os section - overskrift -->
+                    <h1 class="footer-overskrift h1-txt">
+                        OM OS
+                    </h1>
+
+                    <!--Footer - om os section - brødtekst -->
+                    <p class="p-text-omos">
+                        Vi hos TRÆKSMEDEN ApS er 
+                        <br>
+                        et meget hånddrevet firma.
+                        <br> <br>
+                        Vi får opgaven løst med god 
+                        <br>
+                        kvalitet i ordentlig tid.
+                    </p>
+
+                </div>
+
+                    <!--Div class betydning: col = colone, sm = smallscreens, md = medium screens, 
+                    col-sm-4 = 1/3 screen on tablet, col-md = ikke defineret, hvilket betyder at 
+                    at den er default, col-12 = 12 columns (hvilket er standard). Se ellers denne hjemmeside
+                    https://stackoverflow.com/questions/24175998/meaning-of-numbers-in-col-md-4-col-xs-1-col-lg-2-in-bootstrap -->
+        
+                <div class="kontakt_os col-sm-4 col-md col-sm-4  col-12 col">
+
+                    <!--Footer - kontakt os section - overskrift -->
+                    <h1 class="footer-overskrift h1-txt">
+                        KONTAKT OS
+                    </h1>
+
+                    <!--Footer - kontakt os section - brødtekst -->          
+                    <p class="p-text-kontaktos">
+                    Tlf.: 20 31 11 60 el. 20 78 80 27
+                    <br> <br>
+                    Mail: denlillelokalesmed@privat.dk
+                    <br> <br>
+                    Adresse: Kyndbyvej 56, 3630 Jægerspris
+                    <br> <br>
+                    CVR: 33518684
+                    </p>
+
+                </div>
+
+                    <!--Div class betydning: col = colone, sm = smallscreens, md = medium screens, 
+                    col-sm-4 = 1/3 screen on tablet, col-md = ikke defineret, hvilket betyder at 
+                    at den er default, col-12 = 12 columns (hvilket er standard). Se ellers denne hjemmeside
+                    https://stackoverflow.com/questions/24175998/meaning-of-numbers-in-col-md-4-col-xs-1-col-lg-2-in-bootstrap -->
+
+                <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+
+                    <!--Footer - genveje section - overskrift -->  
+                    <h1 class="genveje footer-overskrift h1-txt">
+                    GENVEJE
+                    </h1>
+                    
+                    <!--Footer - genveje section links - begyndelse --> 
+                    <ul class="footer_ul_genveje">
+
+                        <!--Footer - genveje section links - Forside --> 
+                    <li>
+                        <a href="forside.html">FORSIDE</a>
+                    </li>
+                    
+                    
+                        <!--Footer - genveje section links - Vi tilbyder --> 
+                    <li>
+                        <a href="viTilbyder.html">VI TILBYDER</a>
+                    </li>
+
+                        <!--Footer - genveje section links - Om os --> 
+                    <li>
+                        <a href="omOs.html">OM OS</a>
+                    </li>
+                    
+                        <!--Footer - genveje section links - Kontakt os --> 
+                    <li>
+                        <a href="kontakt_os.html">KONTAKT OS</a>
+                    </li> 
+
+                        <!--Footer - genveje section links - Udlejning --> 
+                    <li>
+                        <a href="udlejning.html">UDLEJNING</a>
+                    </li>
+                        <!--Footer - genveje section links - Udlejningsbetingelser --> 
+                    <li>
+                        <a href="udlejningsbetingelser.html">UDLEJNINGSBETINGELSER</a>
+                    </li> 
+
+                    </ul> 
+                </div>
+                <!--Footer - genveje section links - slut --> 
+
+                
+                <div class=" col-sm-4 col-md  col-12 col">
+                    <!--Div class betydning: col = colone, sm = smallscreens, md = medium screens, 
+                    col-sm-4 = 1/3 screen on tablet, col-md = ikke defineret, hvilket betyder at 
+                    at den er default, col-12 = 12 columns (hvilket er standard). Se ellers denne hjemmeside
+                    https://stackoverflow.com/questions/24175998/meaning-of-numbers-in-col-md-4-col-xs-1-col-lg-2-in-bootstrap -->
+
+                <!--Footer - Følg os section - begyndelse --> 
+                    <!--Footer - Følg os section - overskrift --> 
+                    <h1 class="follow_us footer-overskrift h1-txt">
+                        FØLG OS
+                    </h1>
+
+                    <!--Footer - Følg os section - ikon link til facebooksiden -->
+                    <ul class="social_footer_ul">
+                        <a href="https://www.facebook.com/Tr%C3%A6ksmeden-IS-1684092575217575/?ref=page_internal">
+                            <img class="footer_img" src="Ikoner/Facebook-ikon.png" alt="Link to Traeksmeden's facebook page">
+                        </a>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+        <!--Footer - credit "created and hosted by Træksmeden ApS ©" --> 
+        <section class="credit-info">
+            <p class="credit-txt">
+                Created and hosted by Træksmeden ApS©
+            </p>
+        </section>
+        
+        <!--Footer - Slutningen --> 
+    </footer>
+
+    <script>
+        function navbarForside(){
+            window.location.href = "http://www.w3schools.com";
+        }
+        function navbarVitilbyder(){
+            window.location.href = "http://www.w3schools.com";
+        }
+        function navbarOmOs(){
+            window.location.href = "http://www.w3schools.com";
+        }
+        function navbarKotaktOs(){
+            window.location.href = "http://www.w3schools.com";
+        }
+        function navbarUdlejning(){
+            window.location.href = "http://www.w3schools.com";
+        }
+        function kontaktOs(){
+            window.location.href = "http://www.w3schools.com";
+        }
+        function formular(){
+            window.location.href = "http://www.w3schools.com";
+        }
+    </script>
+</body>
+</html>
