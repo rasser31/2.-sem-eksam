@@ -278,6 +278,7 @@ nav{
 }
 
 /*her har jeg stylet galleriet som grid*/
+/*jeg har brugt denne video som hjælp til at style galleri som grid: https://www.youtube.com/watch?v=sHG3Sf6XN9g&t=62s*/
 .img_galleri {
     width: 80%;
     margin: 5vw auto 2.5vw;
