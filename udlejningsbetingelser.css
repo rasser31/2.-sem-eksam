@@ -1,0 +1,69 @@
+.listContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.boks{
+    margin: 3vw;
+    margin-left: 5vw;
+}
+
+.tilbageUdlejning{
+    float: right;
+    margin-right: 150px;
+    margin-top: 3vw;
+
+    text-decoration: none;
+    color: black;
+    font-size: 4vw;
+    font-family: rama-gothic-m,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.wrapper{
+    border-top: 1px solid black;
+}
+
+/* Kode benyttet fra StackOverflow, den 08-06-2022 klokken 00:17
+https://stackoverflow.com/questions/4098195/can-ordered-list-produce-result-that-looks-like-1-1-1-2-1-3-instead-of-just-1 */
+ol {
+    list-style-type: none;
+    counter-reset: item;
+    margin: 0;
+    padding: 0;
+}
+  
+ol > li {
+    display: table;
+    counter-increment: item;
+    margin-bottom: 2em;
+}
+  
+ol > li:before {
+    content: counters(item, ".") ". ";
+    display: table-cell;
+    padding-right: 0.6em; 
+}
+  
+li ol > li {
+    margin: 0;
+    margin-bottom: 10px;
+}
+  
+li ol > li:before {
+    content: counters(item, ".") " ";
+}
+
+.listHeader{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.listHeader ol{
+    font-family: 'Carme', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+}
