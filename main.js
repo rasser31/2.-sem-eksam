@@ -50,7 +50,7 @@ function alertButton(){
     var phone = document.forms["contactForm"]["phone"].value;
     var msg = document.forms["contactForm"]["message"].value;
 
-    if(fname == "" || lname == "" || add == "" || hmember == "" || city == "" || zcode == "" || email == "" || phone == "") {
+    if(fname == "" || lname == "" || add == "" || hmember == "" || city == "" || zcode == "" || email == "" || phone == "" || msg == "") {
         alert("Felterne skal udfyldes");
         return false
     } else {
