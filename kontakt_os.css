@@ -157,7 +157,8 @@ h3{
 }
 
 iframe.frameMaps{
-    
+    width: 530px;
+    height: 550px;
 }
 
 /*Card container med Den røde og sort blok(Kontakt formular)*/
