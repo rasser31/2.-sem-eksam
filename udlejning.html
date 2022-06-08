@@ -64,15 +64,15 @@
 
         <section>
             <div class="grid-container">
-                <img src="gallery/udlejning/Generator.png" alt="Ledig generator">
-                <img src="gallery/udlejning/Varmeblæsere_1.png" alt="ledig Varmeblæsere 1">
-                <img src="gallery/udlejning/Boremaskine_1.png" alt="ledig Boremaskine_1">
-                <img src="gallery/udlejning/Varmeblæsere_2.png" alt="ledig Varmeblæsere_2">
-                <img src="gallery/udlejning/Boremaskine_3.png" alt="ledig Boremaskine_3">
-                <img src="gallery/udlejning/Boremaskine_2.png" alt="ledig Boremaskine_2">
-                <img src="gallery/udlejning/Pladevibratorer.png" alt="ledig Pladevibratorer">
-                <img src="gallery/udlejning/Pladevibratorer-1.png" alt="ledig Pladevibratorer-1">
-                <img class="spanMiddle" src="gallery/udlejning/Pladevibratorer-2.png" alt="ledig Pladevibratorer-2">
+                <img onchange="changeImage()" src="gallery/udlejning/Generator.png" alt="Ledig generator" id="generatorImg">
+                <img onchange="changeImage()" src="gallery/udlejning/Varmeblæsere_1.png" alt="ledig Varmeblæsere 1" id="Varmeblæsere1Img">
+                <img onchange="changeImage()" src="gallery/udlejning/Boremaskine_1.png" alt="ledig Boremaskine_1" id="Boremaskine1Img">
+                <img onchange="changeImage()" src="gallery/udlejning/Varmeblæsere_2.png" alt="ledig Varmeblæsere_2" id="Varmeblæsere2Img">
+                <img onchange="changeImage()" src="gallery/udlejning/Boremaskine_3.png" alt="ledig Boremaskine_3" id="Boremaskine3Img">
+                <img onchange="changeImage()" src="gallery/udlejning/Boremaskine_2.png" alt="ledig Boremaskine_2" id="Boremaskine2Img">
+                <img onchange="changeImage()" src="gallery/udlejning/Pladevibratorer.png" alt="ledig Pladevibratorer" id="PladevibratorerImg">
+                <img onchange="changeImage()" src="gallery/udlejning/Pladevibratorer-1.png" alt="ledig Pladevibratorer-1" id="Pladevibratorer1Img">
+                <img onchange="changeImage()" class="spanMiddle" src="gallery/udlejning/Pladevibratorer-2.png" alt="ledig Pladevibratorer-2" id="pladevibratorer2Img">
             </div>
         </section>
     </main>
@@ -216,30 +216,6 @@
         <!--Footer - Slutningen --> 
         
     </footer>
-
-
-    <script>
-        function navbarForside(){
-            window.location.href = "index.html";
-        }
-        function navbarVitilbyder(){
-            window.location.href = "vi_tilbyder.html";
-        }
-        function navbarOmOs(){
-            window.location.href = "om_os.html";
-        }
-        function navbarKontaktOs(){
-            window.location.href = "kontakt_os.html";
-        }
-        function navbarUdlejning(){
-            window.location.href = "#";
-        }
-        function kontaktOs(){
-            window.location.href = "kontakt_os.html";
-        }
-        function formular(){
-            window.location.href = "kontakt_os.html";
-        }
-    </script>
+    <script src="main.js" defer></script>
 </body>
 </html>

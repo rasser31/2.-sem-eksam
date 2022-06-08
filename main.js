@@ -100,3 +100,112 @@ function formular(){
     https://www.geeksforgeeks.org/how-to-redirect-to-a-particular-section-of-a-page-using-html-or-jquery/*/
     window.location.href = "kontakt_os.html#contactForm";
 }
+
+/* For at skifte tilstanden mellem ledig eller ikke ledig */
+
+
+
+function changeImage() {
+    var gen = document.getElementById('GeneratorOption').value;
+    var var1 = document.getElementById('VarmeBlæsere1Option').value;
+    var bor1 = document.getElementById('boremaskine1Option').value;
+    var var2 = document.getElementById('VarmeBlæsere2Option').value;
+    var bor3 = document.getElementById('boremaskine3Option').value;
+    var bor2 = document.getElementById('boremaskine2Option').value;
+    var pla = document.getElementById('pladevibratorerOption').value;
+    var pla1 = document.getElementById('pladevibratorer1Option').value;
+    var pla2 = document.getElementById('pladevibratorer2Option').value;
+    
+    var imgGen = document.getElementById('generatorImg');
+    var imgVB1 = document.getElementById('Varmeblæsere1Img');
+    var imgBM1 = document.getElementById('Boremaskine1Img');
+    var imgVB2 = document.getElementById('Varmeblæsere2Img');
+    var imgBM3 = document.getElementById('Boremaskine3Img');
+    var imgBM2 = document.getElementById('Boremaskine2Img');
+    var imgPla = document.getElementById('PladevibratorerImg');
+    var imgPV1 = document.getElementById('Pladevibratorer1Img');
+    var imgPV2 = document.getElementById('pladevibratorer2Img');
+
+    
+    /* Generator */
+    if (gen == 'Ledig') {
+        imgGen.src = 'gallery/udlejning/Generator.png';
+        console.log("Generator er ledig");
+    } else if(gen == 'IkkeLedig') {
+        imgGen.src = 'gallery/udlejning/Generator_ikke_ledig.png' ;
+        console.log("Generator er ikke ledig");
+    }
+
+    /* VarmeBlæsere1 */
+    if (var1 == 'Ledig') {
+        imgVB1.src = 'gallery/udlejning/Varmeblæsere_1.png';
+        console.log("Varmeblæsere 9kw er ledig");
+    } else if(var1 == 'IkkeLedig') {
+        imgVB1.src = 'gallery/udlejning/Varmeblæsere_1_ikke_ledig.png' ;
+        console.log("Varmeblæsere 9kw er ikke ledig");
+    }
+
+    /* boremaskine1 */
+    if (bor1 == 'Ledig') {
+        imgBM1.src = 'gallery/udlejning/Boremaskine_1.png';
+        console.log("boremaskine Bosch er ledig");
+    } else if(bor1 == 'IkkeLedig') {
+        imgBM1.src = 'gallery/udlejning/Boremaskine_1_ikke_ledig.png' ;
+        console.log("boremaskine Bosch er ikke ledig");
+    }
+
+    /* Varmeblæsere2 */
+    if (var2 == 'Ledig') {
+        imgVB2.src = 'gallery/udlejning/Varmeblæsere_2.png';
+        console.log("boremaskine Bosch er ledig");
+    } else if(var2 == 'IkkeLedig') {
+        imgVB2.src = 'gallery/udlejning/Varmeblæsere_2_ikke_ledig.png' ;
+        console.log("boremaskine Bosch er ikke ledig");
+    }
+
+    /* boremaskine3 */
+    if (bor3 == 'Ledig') {
+        imgBM3.src = 'gallery/udlejning/Boremaskine_3.png';
+        console.log("boremaskine Bosch er ledig");
+    } else if(bor3 == 'IkkeLedig') {
+        imgBM3.src = 'gallery/udlejning/Boremaskine_3_ikke_ledig.png' ;
+        console.log("boremaskine Bosch er ikke ledig");
+    }
+
+    /* boremaskine2 */
+    if (bor2 == 'Ledig') {
+        imgBM2.src = 'gallery/udlejning/Boremaskine_2.png';
+        console.log("boremaskine Bosch er ledig");
+    } else if(bor2 == 'IkkeLedig') {
+        imgBM2.src = 'gallery/udlejning/Boremaskine_2_ikke_ledig.png' ;
+        console.log("boremaskine Bosch er ikke ledig");
+    }
+
+    /* Pladevibratorer */
+    if (pla == 'Ledig') {
+        imgPla.src = 'gallery/udlejning/Pladevibratorer.png';
+        console.log("boremaskine Bosch er ledig");
+    } else if(pla == 'IkkeLedig') {
+        imgPla.src = 'gallery/udlejning/Pladevibratorer_ikke_ledig.png' ;
+        console.log("boremaskine Bosch er ikke ledig");
+    }
+
+    /* PladeVibratorer1 */
+    if (pla1 == 'Ledig') {
+        imgPV1.src = 'gallery/udlejning/Pladevibratorer-1.png';
+        console.log("boremaskine Bosch er ledig");
+    } else if(pla1 == 'IkkeLedig') {
+        imgPV1.src = 'gallery/udlejning/Pladevibratorer_-1.png' ;
+        console.log("boremaskine Bosch er ikke ledig");
+    }
+
+    /* Pladevibratorer2 */
+    if (pla2 == 'Ledig') {
+        imgPV2.src = 'gallery/udlejning/Pladevibratorer-2.png';
+        console.log("boremaskine Bosch er ledig");
+    } else if(pla2 == 'IkkeLedig') {
+        imgPV2.src = 'gallery/udlejning/Pladevibratorer_2_ikke_ledig.png' ;
+        console.log("boremaskine Bosch er ikke ledig");
+    }
+
+}
