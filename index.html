@@ -17,9 +17,13 @@
     <!--Indsættelse af robots.txt for at sikre at robotter scan siden igennem-->
     <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     
+    <!-- Vores css dokumenter -->
     <link rel="stylesheet" href="forside.css">
     <link rel="stylesheet" href="footer.css">
+    <!-- Link til css animate.style dokument, til brug af animationer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
+    <!-- Titel og favicon -->
     <title>Træksmeden ApS</title>
     <link rel="icon" type="image/x-icon" href="gallery/logos/rund_favicon.png">
 
@@ -32,11 +36,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@700&display=swap" rel="stylesheet"> <!-- Google font - Hindi Madurai -->
 </head>
 <body>
+    <!-- Vores header element -->
     <header>
+        <!-- Logo -->
         <a class="logoBox" href="index.html">
             <img class="logo" src="gallery/logos/firmanumre.jpg" alt="Logo">
         </a>
 
+        <!-- Navbar -->
         <nav>
             <button class="nav underline" onclick="navbarForside()">FORSIDE</button>
             <button class="nav" onclick="navbarVitilbyder()">VI TILBYDER</button>
@@ -45,15 +52,19 @@
             <button class="nav" onclick="navbarUdlejning()">UDLEJNING</button>
         </nav>
     </header>
+
+    <!-- Hovedindhold på siden -->
     <main>
+        <!-- Text med baggrund som værende det første man ser på siden -->
         <section class="mainFront">
-            <h1 class="frontpageHeader">PROFFESIONEL SMED</h1>
-            <p class="frontpageText">Hos Træksmeden kan du forvente et seriøst firma, der sikrer kvalitet til gode priser.</p>
-            <button class="frontpageButtons frontpageButtonBlack" onclick="kontaktOs()">Kontakt os</button>
-            <button class="frontpageButtons frontpageButtonRed" onclick="formular()">Udfyld formular</button>
-        
+            <!-- Classes brugte, er fra Animate.style, som er brugt til at animere vores text -->
+            <h1 class="frontpageHeader animate__animated animate__fadeInLeft">PROFFESIONEL SMED</h1>
+            <p class="frontpageText animate__animated animate__fadeInLeft animate__delay-1s">Hos Træksmeden kan du forvente et seriøst firma, der sikrer kvalitet til gode priser.</p>
+            <button class="frontpageButtons frontpageButtonBlack animate__animated animate__fadeIn animate__delay-1s animate__slower" onclick="kontaktOs()">Kontakt os</button>
+            <button class="frontpageButtons frontpageButtonRed animate__animated animate__fadeIn animate__delay-1s animate__slower" onclick="formular()">Udfyld formular</button>
         </section>
 
+        <!-- Box der kort omhandler hvem Træksmeden ApS er -->
         <section class="welcomeSection">
             <img class="photoshoot" src="gallery/extra/fotoshoot.png" alt="Fotoshoot">
             <aside class="welcomeTextBox">
@@ -66,23 +77,26 @@
             </aside>
         </section>
 
+        <!-- Galleri box som kan dirigere dig over til galleri (Galleri findes ikke) -->
         <section class="gallerySection">
             <section class="quoteBox">
                 <p>"Hos Træksmeden ApS er vi bevidste om, at alle kunder er <br> forskellige, hvorfor vi leverer en bred vifte af specialløsninger."</p>
             </section>
             <section class="galleryPicBox">
-                <a href=""><img class="galleryPics" src="gallery/projects/stair.png" alt="Trappe"></a>
-                <a href=""><img class="galleryPics" src="gallery/projects/bathinghouse.png" alt="Badehus"></a>
-                <a href=""><img class="galleryPics" src="gallery/projects/terrace.png" alt="Terrasse"></a>
-                <a href=""><img class="galleryPics" src="gallery/projects/flowerbox.png" alt="Blomsterkasse"></a>
-                <a href=""><img class="galleryPics" src="gallery/projects/workshop.png" alt="Værksted"></a>
-                <a href=""><img class="galleryPics" src="gallery/projects/owners.png" alt="Ejere"></a>
-                <a href=""><img class="galleryPics" src="gallery/projects/balcony.png" alt="Altan"></a>
-                <a href=""><img class="galleryPics" src="gallery/projects/diningtable.png" alt="Spisebord"></a>
+                <a href="#"><img class="galleryPics" src="gallery/projects/stair.png" alt="Trappe"></a>
+                <a href="#"><img class="galleryPics" src="gallery/projects/bathinghouse.png" alt="Badehus"></a>
+                <a href="#"><img class="galleryPics" src="gallery/projects/terrace.png" alt="Terrasse"></a>
+                <a href="#"><img class="galleryPics" src="gallery/projects/flowerbox.png" alt="Blomsterkasse"></a>
+                <a href="#"><img class="galleryPics" src="gallery/projects/workshop.png" alt="Værksted"></a>
+                <a href="#"><img class="galleryPics" src="gallery/projects/owners.png" alt="Ejere"></a>
+                <a href="#"><img class="galleryPics" src="gallery/projects/balcony.png" alt="Altan"></a>
+                <a href="#"><img class="galleryPics" src="gallery/projects/diningtable.png" alt="Spisebord"></a>
             </section>
         </section>
 
+        <!-- Box der omhandler deres facebook -->
         <section class="feedbackSection">
+            <!-- Box med text omkring facebook -->
             <aside class="textBox">
                 <h2 class="facebookHeader">Seneste anmeldelser</h2>
                 <p class="facebookText">Har du lyst til at få et udsnit af vores igangværende projekter??<br><br>
@@ -91,12 +105,14 @@
                     Klik på knappen nedenunder for at komme direkte ind på vores Facebookside</p>
                 <a class="facebookButton" href="https://www.facebook.com/Tr%C3%A6ksmeden-IS-1684092575217575/">Facebook Side</a>
             </aside>
+            <!-- Skal fremvise deres seneste facebook post (Ikke funktionel, fremviser billede i stedet for) -->
             <aside class="facebookPost">
                 <img class="facebookImg" src="gallery/extra/facebookPost.png" alt="Facebook Post">
             </aside>
         </section>
-
     </main>
+    
+    <!-- Footer -->
     <footer class="footer">
         <div class="container buttom_border">
             <div class="row">
@@ -234,6 +250,7 @@
         <!--Footer - Slutningen --> 
     </footer>
 
+    <!-- Linkning til vores Javascript dokument -->
     <script src="main.js" defer></script>
 </body>
 </html>

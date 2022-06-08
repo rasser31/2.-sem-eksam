@@ -7,33 +7,36 @@
     <meta name="keywords" content="Træksmeden, Metal, Din lokale smed, Smedearbejde, Hydraulik, Syn, Reperation, lastbil, kran, svejs, gravko">
     <meta name="author" content="Træksmeden ApS">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Træksmeden ApS - Om os</title>
     
+    <!-- Vores css dokumenter -->
     <link rel="stylesheet" href="om_os.css">
     <link rel="stylesheet" href="footer.css">
 
+    <!-- Titel og favicon -->
     <title>Træksmeden ApS - Om os</title>
+    <link rel="icon" type="image/x-icon" href="gallery/logos/rund_favicon.png">
 
     <!--indsættelse af robots.txt for at sikre at robotter scan siden igennem-->
     <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 
-    <link rel="icon" type="image/x-icon" href="gallery/logos/rund_favicon.png">
-
+    <!-- The fonts we use -->
     <link rel="stylesheet" href="https://use.typekit.net/lru6wig.css"> <!-- Adobe font -->
     <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Google font -->
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,200&display=swap" rel="stylesheet"> <!-- Google font - Libre Franklin -->
     <link href="https://fonts.googleapis.com/css2?family=Carme&display=swap" rel="stylesheet"> <!-- Google font - Carme -->
     <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@700&display=swap" rel="stylesheet"> <!-- Google font - Hindi Madurai -->
-
-
 </head>
 <body>
+    <!-- Vores header element -->
+    <!-- Computer headeren -->
     <header class="desktopHeader">
+        <!-- Logo -->
         <a class="logoBox" href="index.html">
             <img class="logo" src="gallery/logos/firmanumre.jpg" alt="Logo">
         </a>
 
+        <!-- Navbar -->
         <nav>
             <button class="nav" onclick="navbarForside()">FORSIDE</button>
             <button class="nav" onclick="navbarVitilbyder()">VI TILBYDER</button>
@@ -43,22 +46,27 @@
         </nav>
     </header>
 
+    <!-- Mobil headeren -->
     <header class="mobileHeader">
         <div class="topnav">
-            <a href="#home"><img class="mobileLogo" src="gallery/logos/mobileLogo.png" alt="Mobile Logo"></a>
+            <!-- Logoet fremvist i midten -->
+            <a href="index.html"><img class="mobileLogo" src="gallery/logos/mobileLogo.png" alt="Mobile Logo"></a>
+            <!-- Dropdown menuen -->
             <div id="mobileNavbarLinks">
-              <a class="burgernav" href="index.html">FORSIDE</a>
-              <a class="burgernav" href="vi_tilbyder.html">VI TILBYDER</a>
-              <a class="burgernav" href="om_os.html">OM OS</a>
-              <a class="burgernav" href="kontakt_os.html">KONTAKT OS</a>
-              <a class="burgernav" href="#">UDLEJNING</a>
+                <a class="burgernav" href="index.html">FORSIDE</a>
+                <a class="burgernav" href="vi_tilbyder.html">VI TILBYDER</a>
+                <a class="burgernav" href="om_os.html">OM OS</a>
+                <a class="burgernav" href="kontakt_os.html">KONTAKT OS</a>
+                <a class="burgernav" href="#">UDLEJNING</a>
             </div>
+            <!-- Burgermenu ikonet med given funktion -->
             <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
-              <i class="fa fa-bars"></i>
+                <i class="fa fa-bars"></i>
             </a>
           </div>
     </header>
 
+    <!-- Hovedindhold på siden -->
     <main class="omOsMainPage">
         <!--Her har jeg lavet en class til boksen "Om os" så det var nemt at style den i css.-->
         <section class="boks">
@@ -80,49 +88,50 @@
                     <p>For yderligere info, klik dig ind på fanen 'vi tilbyder'.
                         Derudover besvarer vi gerne spørgsmål - både på mail, eller telefon. Vores kontaktoplysninger er
                         tilgængelige under fanen 'kontakt os'.</p>
-        <!--Jeg har givet paragraffer en class for at kunne style den i cssen, for at den kunne stå for sig selv.-->
+                    <!--Jeg har givet paragraffer en class for at kunne style den i cssen, for at den kunne stå for sig selv.-->
                     <p class="høre">Vi ser frem til at høre fra dig.</p>
-        <!--Jeg har lavet en class til kontakt og formular for at kunne style dem sammen.-->
+                    <!--Jeg har lavet en class til kontakt og formular for at kunne style dem sammen.-->
                     <div class="kf">
                         <a href="kontakt_os.html">
-        <!--Jeg har lavet en class til kontakt os for at kunne style selve knappen.-->
+                        <!--Jeg har lavet en class til kontakt os for at kunne style selve knappen.-->
                             <button class="kontakt"> Kontakt os </button>
                         </a>
                         <a href="kontakt_os.html">
-        <!--Jeg har lavet en class til kontakt os for at kunne style selve knappen.-->
+                            <!--Jeg har lavet en class til kontakt os for at kunne style selve knappen.-->
                             <button class="formular"> Udfyld formular </button>
                         </a>
                     </div>
-
                 </div>
                 <section class="imageBox">
-        <!--Jeg har lavet en class til Varevogns billdet, for at kunne style det enklte billede i css.-->
+                    <!--Jeg har lavet en class til Varevogns billdet, for at kunne style det enklte billede i css.-->
                     <div class="vogn">
                         <img src="gallery/extra/varevogn.png" alt="Billede af varevogn">
                     </div>
                     <div class="logo">
-        <!--Jeg har lavet en class til Logo billdet, for at kunne style det enklte billede i css.-->
+                        <!--Jeg har lavet en class til Logo billdet, for at kunne style det enklte billede i css.-->
                         <img src="gallery/logos/logo.png" alt="Billede af logo">
                     </div>
                     <div class="adresse">
-        <!--Jeg har lavet en class til Adresse billdet, for at kunne style det enklte billede i css.-->
+                        <!--Jeg har lavet en class til Adresse billdet, for at kunne style det enklte billede i css.-->
                         <img src="gallery/extra/adresse.png" alt="Billede af adresse">
                     </div>
                 </section>
             </div>
         </section>
 
+        <!-- Galleri del som er placeret under tidligere om os elementer  -->
         <h1 class="galleriHeader">Galleri</h1>
         <!--jeg har lavet en section med en class til citat boksen så jeg kan style den i css -->
         <section class="box">
             <h2 class="tekst_style">"Hos Træksmeden ApS, kan du se billeder af forskellige projekter vi har arbejdet med og
-                lidt mere."</h2>
+                lidt mere."
+            </h2>
         </section>
 
         <!--her under sætter jeg billederene ind på siden-->
         <section class="galleri">
             <div class="img_galleri">
-        <!--jeg har lavet billederene til links så de linker videre til en anden side-->
+                <!--jeg har lavet billederene til links så de linker videre til en anden side-->
                 <a href="projekter.html">
                     <img src="gallery/projects/stair.png" alt="stair">
                 </a>
@@ -138,7 +147,7 @@
                 <a href="projekter.html">
                     <img src="gallery/projects/flowerbox.png" alt="flowerbox">
                 </a>
-        <!--jeg har givet nogle af billederene en class "mobil_no" fordi de skal kunne fjernes på mobil størrelsen-->
+                <!--jeg har givet nogle af billederene en class "mobil_no" fordi de skal kunne fjernes på mobil størrelsen-->
                 <div class="mobil_no">
                     <a href="værksted.html">
                         <img src="gallery/projects/workshop.png" alt="workshop">
@@ -164,6 +173,7 @@
         </section>
     </main>
 
+    <!-- Footer -->
     <footer class="footer">
         <div class="container buttom_border">
             <div class="row">
@@ -302,10 +312,7 @@
         
     </footer>
 
-
-
-
-
+    <!-- Linkning til vores Javascript dokument -->
     <script src="main.js" defer></script>
 </body>
 </html>

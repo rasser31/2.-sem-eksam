@@ -7,15 +7,17 @@
     <meta name="keywords" content="Træksmeden, Metal, Din lokale smed, Smedearbejde, Hydraulik, Syn, Reperation, lastbil, kran, svejs, gravko">
     <meta name="author" content="Træksmeden ApS">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Vores css dokumenter -->
     <link rel="stylesheet" href="kontakt_os.css">
     <link rel="stylesheet" href="footer.css">
     
+    <!-- Titel og favicon -->
     <title>Træksmeden ApS - Kontakt os</title>
+    <link rel="icon" type="image/x-icon" href="gallery/logos/rund_favicon.png">
     
     <!--indsættelse af robots.txt for at sikre at robotter scan siden igennem-->
     <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-
-    <link rel="icon" type="image/x-icon" href="gallery/logos/rund_favicon.png">
 
     <!-- The fonts we use -->
     <link rel="stylesheet" href="https://use.typekit.net/lru6wig.css"> <!-- Adobe font -->
@@ -24,17 +26,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,200&display=swap" rel="stylesheet"> <!-- Google font - Libre Franklin -->
     <link href="https://fonts.googleapis.com/css2?family=Carme&display=swap" rel="stylesheet"> <!-- Google font - Carme -->
     <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@700&display=swap" rel="stylesheet"> <!-- Google font - Hindi Madurai -->
-
-    <!--Scripts-->
-    <script src="main.js"></script>
-
 </head>
 <body>
+    <!-- Vores header element -->
     <header>
+        <!-- Logo -->
         <a class="logoBox" href="index.html">
             <img class="logo" src="gallery/logos/firmanumre.jpg" alt="Logo">
         </a>
 
+        <!-- Navbar -->
         <nav>
             <button class="nav" onclick="navbarForside()">FORSIDE</button>
             <button class="nav" onclick="navbarVitilbyder()">VI TILBYDER</button>
@@ -43,178 +44,184 @@
             <button class="nav" onclick="navbarUdlejning()">UDLEJNING</button>
         </nav>
     </header>
+
+    <!-- Hovedindhold på siden -->
     <main>
+        <!-- Box med overskrift indeni -->
         <div class="boks"> KONTAKT OS</div>
-   
-    <div class="grid-parentContainer">
-        <div class="childContainerText">
-            <p class="kontaktText">
-                Har du lyst til at høre mere eller er du interesseret i et uforpligtende tilbud på dit projekt?<br> Vi vil gerne drøfte dine behov for dit projekt og give dig et uforpligtende tilbud.
-                <br>Så vær ikke bange for at give et kald.
-            </p>
+
+        <!-- Text felter der omhandlerr dem -->
+        <div class="grid-parentContainer">
+            <div class="childContainerText">
                 <p class="kontaktText">
-                    <br>Vi kan blive træffet i alle ugens hverdage fra <b>07.00 - 16.30</b> enten på telefon eller e-mail.</p>
-                
-                <p class="kontaktText">
-                    <br><strong>Kontaktoplysninger</strong></p>
-                
-                <p class="kontaktText"> 
-                    <br><strong>Træksmeden ApS</strong><br>
-                    Kyndbyvej 56, 3630 Jægerspris<br>
-                    CVR: 33518684 </p>
-                
-                <p class="kontaktText">
-                    <br><strong>Zeth - Ejer</strong>
-                    <br>Tlf: 20 31 11 60 
-                    <br>E-mail: denlillelokalesmed@privat.dk </p>
+                    Har du lyst til at høre mere eller er du interesseret i et uforpligtende tilbud på dit projekt?<br> Vi vil gerne drøfte dine behov for dit projekt og give dig et uforpligtende tilbud.
+                    <br>Så vær ikke bange for at give et kald.
+                </p>
+                    <p class="kontaktText">
+                        <br>Vi kan blive træffet i alle ugens hverdage fra <b>07.00 - 16.30</b> enten på telefon eller e-mail.</p>
                     
-                <p class="kontaktText">
-                    <br><strong>Morten - Ejer</strong>
-                    <br>Tlf: 20 78 80 27 
-                    <br>E-mail: denlillelokalesmed@privat.dk </p>
-        </div>
-        <div class="childContainerMap">
-            <div class="mapouter"> 
-                <div class="gmap_canvas">
-                    <iframe class="frameMaps" id="gmap_canvas" src="https://maps.google.com/maps?q=Kyndbyvej%2056,%203630%20J%C3%A6gerspris&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                    <br>
-                    <a href="https://www.embedgooglemap.net">embedded maps</a>
-                    </div>
-                </div>
-            </div> 
-        </div>
-    
-
-    <section>
-            <div class="centerContainer">
-                <h1 style="font-size: 5rem ;">Skriv til os</h1>
-                <div class="grid-container">
-                    <div class="cardText">
-                        <h1 class="cardHeaderText">Udfyld formularen</h1>
-                        <p class="cardUnderText">
-                            Har du nogle generelle spørgsmål eller ønsker du at søge job, så bør du kontakte os via email på denlillelokalesmed@privat.dk eller direkte via vores mailformular her på siden.
-                            <br><br>
-
-                            Brug også vores mailformular til at få et tilbud om dit opkommende projekt. 
-                            <br><br>
-                            Er du ikke sikker på om vi har modtaget din mail, kan du kontakte os på tlf. 20 31 11 60 eller 20 78 80 27.
-                            <br><br>
-                            Du bliver kontaktet hurtigst muligt.
-                            <br><br>
-                            Tak for din henvendelse</p>
-                    </div>
-
-            <!--Vi har lavet en kontaktformular med inspiration fra en siden (https://www.notimedad.dev/contact-form-grid/) som handler om kontakt formular i grid facade.-->
-                <form name="contactForm" id="contactForm">   
-                    <div class="cardContact" style="background-color: rgb(0, 0, 0);">
-                        <div class="headerText">Skriv til os</div>
-                        <div class="inputContainer">
-                            <label for="first-name" class= "Label">Fornavn</label>
-                            <input 
-                                name="first-name"
-                                class="Input"
-                                type="text"
-                                placeholder=""
-                                required 
-                            />
-                        </div>
-                        <div class="inputContainer">
-                            <label for="last-name" class="Label">Efternavn</label>
-                                <input 
-                                name="last-name"
-                                class="Input"
-                                type="text"
-                                placeholder=""
-                                required 
-                                />
-                        </div>
-                        <div class="inputContainer">
-                            <label for="address" class="Label">Adresse</label>
-                                <input 
-                                name="address"
-                                class="Input"
-                                type="text"
-                                placeholder=""
-                                required 
-                                />
-                        </div>
-                            
-                        <div class="inputContainer">
-                            <label for="house-number" class="Label">Husnummer</label>
-                                <input 
-                                name="house-number"
-                                class="Input"
-                                type="text"
-                                placeholder=""
-                                required 
-                                />
-                        </div>
-
-                        <div class="inputContainer">
-                            <label for="city" class="Label">By</label>
-                                <input 
-                                name="city"
-                                class="Input"
-                                type="text"
-                                placeholder=""
-                                required 
-                                />
-                        </div>
+                    <p class="kontaktText">
+                        <br><strong>Kontaktoplysninger</strong></p>
+                    
+                    <p class="kontaktText"> 
+                        <br><strong>Træksmeden ApS</strong><br>
+                        Kyndbyvej 56, 3630 Jægerspris<br>
+                        CVR: 33518684 </p>
+                    
+                    <p class="kontaktText">
+                        <br><strong>Zeth - Ejer</strong>
+                        <br>Tlf: 20 31 11 60 
+                        <br>E-mail: denlillelokalesmed@privat.dk </p>
                         
-                        <div class="inputContainer">
-                            <label for="zip-code" class="Label">Postnummer</label>
-                                <input 
-                                name="zip-code"
-                                class="Input"
-                                type="text"
-                                placeholder=""
-                                required 
-                                />
-                        </div>
-                        
-                        <div class="inputContainer">
-                            <label for="e-mail" class="Label">E-mail</label>
-                                <input 
-                                name="e-mail"
-                                class="Input"
-                                type="text"
-                                placeholder=""
-                                required 
-                                />
-                        </div>
-                        
-                        <div class="inputContainer">
-                            <label for="phone" class="Label">Telefon nummer</label>
-                                <input 
-                                name="phone"
-                                class="Input"
-                                type="text"
-                                placeholder=""
-                                required 
-                                />
-                        </div>
-
-
-                        
-                        <div class="textContainer">
-                            <label for="message" class="Label"></label>
-                                <textarea
-                                    class="Input"
-                                    rows="5"
-                                    cols="200"
-                                    maxlength="1200"
-                                    name="message"
-                                    placeholder="Emne - Besked"
-                                    required
-                                ></textarea>
-                        </div>
-                        <div class="buttonContainer">
-                            <button onclick="alertButton()" type="submit" class="Button">Send Besked</button></div>
-                    </div>
-                </form>
+                    <p class="kontaktText">
+                        <br><strong>Morten - Ejer</strong>
+                        <br>Tlf: 20 78 80 27 
+                        <br>E-mail: denlillelokalesmed@privat.dk </p>
             </div>
-        </div>
-    </section>
+
+            <!-- Fremvisning af deres placering på et kort -->
+            <div class="childContainerMap">
+                <div class="mapouter"> 
+                    <div class="gmap_canvas">
+                        <iframe class="frameMaps" id="gmap_canvas" src="https://maps.google.com/maps?q=Kyndbyvej%2056,%203630%20J%C3%A6gerspris&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <br>
+                        <a href="https://www.embedgooglemap.net">embedded maps</a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        
+        <!-- Start på kontakt formularen -->
+        <section>
+                <div class="centerContainer">
+                    <h1 style="font-size: 5rem ;">Skriv til os</h1>
+                    <div class="grid-container">
+                        <div class="cardText">
+                            <h1 class="cardHeaderText">Udfyld formularen</h1>
+                            <p class="cardUnderText">
+                                Har du nogle generelle spørgsmål eller ønsker du at søge job, så bør du kontakte os via email på denlillelokalesmed@privat.dk eller direkte via vores mailformular her på siden.
+                                <br><br>
+
+                                Brug også vores mailformular til at få et tilbud om dit opkommende projekt. 
+                                <br><br>
+                                Er du ikke sikker på om vi har modtaget din mail, kan du kontakte os på tlf. 20 31 11 60 eller 20 78 80 27.
+                                <br><br>
+                                Du bliver kontaktet hurtigst muligt.
+                                <br><br>
+                                Tak for din henvendelse</p>
+                        </div>
+
+                <!--Vi har lavet en kontaktformular med inspiration fra en siden (https://www.notimedad.dev/contact-form-grid/) som handler om kontakt formular i grid facade.-->
+                    <form name="contactForm" id="contactForm">   
+                        <div class="cardContact" style="background-color: rgb(0, 0, 0);">
+                            <div class="headerText">Skriv til os</div>
+                            <div class="inputContainer">
+                                <label for="first-name" class= "Label">Fornavn</label>
+                                <input 
+                                    name="first-name"
+                                    class="Input"
+                                    type="text"
+                                    placeholder=""
+                                    required 
+                                />
+                            </div>
+                            <div class="inputContainer">
+                                <label for="last-name" class="Label">Efternavn</label>
+                                    <input 
+                                    name="last-name"
+                                    class="Input"
+                                    type="text"
+                                    placeholder=""
+                                    required 
+                                    />
+                            </div>
+                            <div class="inputContainer">
+                                <label for="address" class="Label">Adresse</label>
+                                    <input 
+                                    name="address"
+                                    class="Input"
+                                    type="text"
+                                    placeholder=""
+                                    required 
+                                    />
+                            </div>
+                                
+                            <div class="inputContainer">
+                                <label for="house-number" class="Label">Husnummer</label>
+                                    <input 
+                                    name="house-number"
+                                    class="Input"
+                                    type="text"
+                                    placeholder=""
+                                    required 
+                                    />
+                            </div>
+
+                            <div class="inputContainer">
+                                <label for="city" class="Label">By</label>
+                                    <input 
+                                    name="city"
+                                    class="Input"
+                                    type="text"
+                                    placeholder=""
+                                    required 
+                                    />
+                            </div>
+                            
+                            <div class="inputContainer">
+                                <label for="zip-code" class="Label">Postnummer</label>
+                                    <input 
+                                    name="zip-code"
+                                    class="Input"
+                                    type="text"
+                                    placeholder=""
+                                    required 
+                                    />
+                            </div>
+                            
+                            <div class="inputContainer">
+                                <label for="e-mail" class="Label">E-mail</label>
+                                    <input 
+                                    name="e-mail"
+                                    class="Input"
+                                    type="text"
+                                    placeholder=""
+                                    required 
+                                    />
+                            </div>
+                            
+                            <div class="inputContainer">
+                                <label for="phone" class="Label">Telefon nummer</label>
+                                    <input 
+                                    name="phone"
+                                    class="Input"
+                                    type="text"
+                                    placeholder=""
+                                    required 
+                                    />
+                            </div>
+
+
+                            
+                            <div class="textContainer">
+                                <label for="message" class="Label"></label>
+                                    <textarea
+                                        class="Input"
+                                        rows="5"
+                                        cols="200"
+                                        maxlength="1200"
+                                        name="message"
+                                        placeholder="Emne - Besked"
+                                        required
+                                    ></textarea>
+                            </div>
+                            <div class="buttonContainer">
+                                <button onclick="alertButton()" type="submit" class="Button">Send Besked</button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="container buttom_border">
@@ -353,6 +360,7 @@
         <!--Footer - Slutningen --> 
     </footer>
 
+    <!-- Linkning til vores Javascript dokument -->
     <script src="main.js" defer></script>
 </body>
 </html>

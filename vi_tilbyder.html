@@ -7,16 +7,17 @@
     <meta name="keywords" content="Træksmeden, Metal, Din lokale smed, Smedearbejde, Hydraulik, Syn, Reperation, lastbil, kran, svejs, gravko">
     <meta name="author" content="Træksmeden ApS">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Vores css dokumenter -->
     <link rel="stylesheet" href="vi_tilbyder.css">
     <link rel="stylesheet" href="footer.css">
-    <script src="main.js"></script>
 
+    <!-- Titel og favicon -->
     <title>Træksmeden ApS - Vi tilbyder</title>
+    <link rel="icon" type="image/x-icon" href="gallery/logos/rund_favicon.png">
 
     <!--indsættelse af robots.txt for at sikre at robotter scan siden igennem-->
     <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-
-    <link rel="icon" type="image/x-icon" href="gallery/logos/rund_favicon.png">
 
     <!-- The fonts we use -->
     <link rel="stylesheet" href="https://use.typekit.net/lru6wig.css"> <!-- Adobe font -->
@@ -26,30 +27,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Carme&display=swap" rel="stylesheet"> <!-- Google font - Carme -->
 </head>
 <body>
+    <!-- Vores header element -->
     <header>
+        <!-- Logo -->
         <a class="logoBox" href="index.html">
             <img class="logo" src="gallery/logos/firmanumre.jpg" alt="Logo">
         </a>
 
+        <!-- Navbar -->
         <nav>
             <button class="nav" onclick="navbarForside()">FORSIDE</button>
             <button class="nav underline" onclick="navbarVitilbyder()">VI TILBYDER</button>
             <button class="nav" onclick="navbarOmOs()">OM OS</button>
-            <button class="nav" onclick="navbarKotaktOs()">KONTAKT OS</button>
+            <button class="nav" onclick="navbarKontaktOs()">KONTAKT OS</button>
             <button class="nav" onclick="navbarUdlejning()">UDLEJNING</button>
         </nav>
     </header>
+
+    <!-- Hovedindhold på siden -->
     <main>
         <section class="mainFront">
             <section class="wrapper">
                 <div>
+                    <!-- Box med overskrift indeni -->
                     <h1 class="OffersHeader">VI TILBYDER</h1>
-                        <h2 id="offerHeadText"></h2>
-                        <p id="offersText" class="OffersText">Vi udfører mange vidt forskellige typer opgaver. 
-                            <br>Her indgår Smedearbejde, Hydraulik, Syn, med mere. 
-                            <br><br>Tjek gerne siderne ud for at få mere information.</p>
+
+                    <!-- Text omhandlene siden -->
+                    <p id="offersText" class="OffersText">Vi udfører mange vidt forskellige typer opgaver. 
+                        <br>Her indgår Smedearbejde, Hydraulik, Syn, med mere. 
+                        <br><br>Tjek gerne siderne ud for at få mere information.</p>
                 </div>
 
+                    <!-- Grid system der fremviser vores trykbare knapper til at vise informationer omkring emnet -->
                     <div class="grid-container">
                         <button onclick="showHideSmed()" class="offerBox">
                             <img src="gallery/vi_tilbyder/Smedarbejde.png" alt="SmedarbejdeIcon" class="offerIcon">
@@ -67,21 +76,23 @@
                             <img src="gallery/vi_tilbyder/Custom.png" alt="CustomIcon" class="offerIcon">
                         </button>
                     </div>
-                
             </section>
         </section>
 
+        <!-- Sektion placeret under hovedindholdet -->
         <section>
+            <!-- Indhold omhandlende Smedearbejde -->
             <div id="Smedarbejde">
                 <img src="gallery/vi_tilbyder/Smedarbejde_ex1.png" alt="Smedarbejde Billede eksempel 1" class="underOfferImg">   
-            <p class="underOfferText">Vi har tilsammen haft erfaring med smedarbejde i over 25 år, og har siden arbejdet med større og små projekter. Det har gjort at vi har stiftet os bekendtskab til selv de svære ting. Vi står inden for forskellige svejse, - montagearbejde, og priotere altid efter en løsning og din tilfredshed.
-                <br><br>Så hvis du har behov for at få lavet noget reparation eller montage så tøv ikke og tag fat i os, enten ved at kontakte os eller udfylde formularen.
+                <p class="underOfferText">Vi har tilsammen haft erfaring med smedarbejde i over 25 år, og har siden arbejdet med større og små projekter. Det har gjort at vi har stiftet os bekendtskab til selv de svære ting. Vi står inden for forskellige svejse, - montagearbejde, og priotere altid efter en løsning og din tilfredshed.
+                    <br><br>Så hvis du har behov for at få lavet noget reparation eller montage så tøv ikke og tag fat i os, enten ved at kontakte os eller udfylde formularen.
                 </p>
                 <button class="frontpageButtons frontpageButtonBlack" onclick="window.location.href='kontakt_os.html';">
                     Kontakt os</button>
-            <button class="frontpageButtons frontpageButtonRed" onclick="window.location.href='kontakt_os.html';">Udfyld formular</button>
+                <button class="frontpageButtons frontpageButtonRed" onclick="window.location.href='kontakt_os.html#contactForm';">Udfyld formular</button>
             </div>
 
+            <!-- Indhold omhandlende Hydraulik -->
             <div id="Hydraulik">
                 <img src="gallery/vi_tilbyder/Hydraulik_ex1.png" alt="Hydraulik Billede eksempel 1" class="underOfferImg">
                 <p class="underOfferText">Vi benytter os af vores viden til at kunne reparerer en del forskellige produkter, dette indebærer også hydraulikker.
@@ -93,25 +104,26 @@
                     Dette giver os muligheden for at arbejde på både større kraner, samt mindre minigravere. 
                     <br><br>
                     Så hvis du mangler en slange eller et stempel der skal skiftes, så kontakt os gerne gennem et kald, eller udfyld formularen som også kan findes på vores kontakt side
-                    </p>
-                    <button class="frontpageButtons frontpageButtonBlack" onclick="window.location.href='kontakt_os.html';">
-                        Kontakt os</button>
-                <button class="frontpageButtons frontpageButtonRed" onclick="window.location.href='kontakt_os.html';">Udfyld formular</button>
-                </div>
+                </p>
+                <button class="frontpageButtons frontpageButtonBlack" onclick="window.location.href='kontakt_os.html';">
+                    Kontakt os</button>
+                <button class="frontpageButtons frontpageButtonRed" onclick="window.location.href='kontakt_os.html#contactForm';">Udfyld formular</button>
+            </div>
 
+            <!-- Indhold omhandlende Syn -->
             <div id="Syn">
                 <img src="gallery/vi_tilbyder/Syn_ex1.png" alt="syn Billede eksempel 1" class="underOfferImg">
                 <p class="underOfferText">Vi tilbyder årlige lovpligtige eftersyn på kraner, lifte, wire/krog hejs samt el. Eftersynet bliver udført via en tjekliste der sikrer at dine kran til at være i god stand og udfører sig efter loven. Vi udfører efter dine ønsker og vi har mange års erfaring med eftersyn samt reparationer 
                     Sikkerhedseftersynet udføreres altid under henvisning til gældende lovgivning. 
                     <br><br>
                     Vi tilbyder også at tage ud til kunden ellers er der mulighed for at komme forbi vores værksted.
-                    </p>
+                </p>
+                <button class="frontpageButtons frontpageButtonBlack" onclick="window.location.href='kontakt_os.html';">
+                    Kontakt os</button>
+                <button class="frontpageButtons frontpageButtonRed" onclick="window.location.href='kontakt_os.html#contactForm';">Udfyld formular</button>
+            </div>
 
-                    <button class="frontpageButtons frontpageButtonBlack" onclick="window.location.href='kontakt_os.html';">
-                        Kontakt os</button>
-                <button class="frontpageButtons frontpageButtonRed" onclick="window.location.href='kontakt_os.html';">Udfyld formular</button>
-                </div>
-
+            <!-- Indhold omhandlende Custom -->
             <div id="Custom">
                 <img src="gallery/vi_tilbyder/Custom_ex1.png" alt="Custom Billede eksempel 1" class="underOfferImg">
                 <p class="underOfferText">Vi benytter os meget af de frie valg, vores grænser ligger nemlig ikke kun i at skifte slanger, fremføre syn på lastvogne eller sikre forbindelsen mellem to punkter i din krans styresystem. Vi udfører også simplere opgaver, som kan vedrøre privatpersoner.
@@ -120,16 +132,13 @@
                     Så hvis du står og mangler noget i dit nye hjem eller du har noget smedearbejde du mangler til dine hobbier eller andet. Så kontakt os gerne gennem et kald, eller udfyld formularen som også kan findes på vores kontakt side.
                 </p>
                 <img src="gallery/vi_tilbyder/Custom_ex2.png" alt="Custom Billede eksempel 2" class="underOfferImg2">
-                
-                    <p class="underOfferText underOfferText2">Vi har igennem tiden udført mange forskellige opgaver. Hvor nogle af vores seneste er et fiskestangsstativ til en båd. Der er blevet lagt langt tid, ind i projektet med nøje målinger og præcise svejsninger. Vi har også udført opgaver til noget større, dette indebærer KBH Hovedbanegård. Her har vi fremstillet nogle aluminiums plader til rulletrapperne som kan findes mange steder ned til platformene. Vi rammer da ikke kun den ene gruppe af mennesker, men dem alle.
-                        <br><br>
-                        Så hvis du har noget der skal fremstilles, så tag gerne kontakt til os genne vores formular som kan findes på vores kontakt side.</p> 
-                        <button class="frontpageButtons frontpageButtonBlack" onclick="window.location.href='kontakt_os.html';">
-                            Kontakt os</button>
-                    <button class="frontpageButtons frontpageButtonRed" onclick="window.location.href='kontakt_os.html';">Udfyld formular</button>
-                    
-                    </div>
-                
+                <p class="underOfferText underOfferText2">Vi har igennem tiden udført mange forskellige opgaver. Hvor nogle af vores seneste er et fiskestangsstativ til en båd. Der er blevet lagt langt tid, ind i projektet med nøje målinger og præcise svejsninger. Vi har også udført opgaver til noget større, dette indebærer KBH Hovedbanegård. Her har vi fremstillet nogle aluminiums plader til rulletrapperne som kan findes mange steder ned til platformene. Vi rammer da ikke kun den ene gruppe af mennesker, men dem alle.
+                    <br><br>
+                    Så hvis du har noget der skal fremstilles, så tag gerne kontakt til os genne vores formular som kan findes på vores kontakt side.</p> 
+                <button class="frontpageButtons frontpageButtonBlack" onclick="window.location.href='kontakt_os.html';">
+                    Kontakt os</button>
+                <button class="frontpageButtons frontpageButtonRed" onclick="window.location.href='kontakt_os.html#contactForm';">Udfyld formular</button>    
+            </div>
         </section>
         
 
