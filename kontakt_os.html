@@ -116,7 +116,7 @@
                         <div class="cardContact" style="background-color: rgb(0, 0, 0);">
                             <div class="headerText">Skriv til os</div>
                             <div class="inputContainer">
-                                <label for="first-name" class= "Label">Fornavn</label>
+                                <label for="first-name" class= "Label" id="firstName">Fornavn</label>
                                 <input 
                                     name="first-name"
                                     class="Input"
@@ -126,7 +126,7 @@
                                 />
                             </div>
                             <div class="inputContainer">
-                                <label for="last-name" class="Label">Efternavn</label>
+                                <label for="last-name" class="Label" id="lastName">Efternavn</label>
                                     <input 
                                     name="last-name"
                                     class="Input"
@@ -136,7 +136,7 @@
                                     />
                             </div>
                             <div class="inputContainer">
-                                <label for="address" class="Label">Adresse</label>
+                                <label for="address" class="Label" id="address">Adresse</label>
                                     <input 
                                     name="address"
                                     class="Input"
@@ -147,7 +147,7 @@
                             </div>
                                 
                             <div class="inputContainer">
-                                <label for="house-number" class="Label">Husnummer</label>
+                                <label for="house-number" class="Label" id="houseNumber">Husnummer</label>
                                     <input 
                                     name="house-number"
                                     class="Input"
@@ -158,7 +158,7 @@
                             </div>
 
                             <div class="inputContainer">
-                                <label for="city" class="Label">By</label>
+                                <label for="city" class="Label" id="city">By</label>
                                     <input 
                                     name="city"
                                     class="Input"
@@ -169,7 +169,7 @@
                             </div>
                             
                             <div class="inputContainer">
-                                <label for="zip-code" class="Label">Postnummer</label>
+                                <label for="zip-code" class="Label" id="zipCode">Postnummer</label>
                                     <input 
                                     name="zip-code"
                                     class="Input"
@@ -180,7 +180,7 @@
                             </div>
                             
                             <div class="inputContainer">
-                                <label for="e-mail" class="Label">E-mail</label>
+                                <label for="e-mail" class="Label" id="email">E-mail</label>
                                     <input 
                                     name="e-mail"
                                     class="Input"
@@ -191,7 +191,7 @@
                             </div>
                             
                             <div class="inputContainer">
-                                <label for="phone" class="Label">Telefon nummer</label>
+                                <label for="phone" class="Label" id="phone">Telefon nummer</label>
                                     <input 
                                     name="phone"
                                     class="Input"
@@ -204,7 +204,7 @@
 
                             
                             <div class="textContainer">
-                                <label for="message" class="Label"></label>
+                                <label for="message" class="Label" id="message"></label>
                                     <textarea
                                         class="Input"
                                         rows="5"
@@ -340,15 +340,16 @@
 
                     <!--Footer - Følg os section - ikon link til facebooksiden -->
                     <ul class="social_footer_ul">
-                        <a href="https://www.facebook.com/Tr%C3%A6ksmeden-IS-1684092575217575/?ref=page_internal">
-                            <img class="footer_img" src="gallery/extra/facebook.png" alt="Link to Traeksmeden's facebook page">
-                        </a>
-                    </ul>
+                        <li>
+                            <a href="https://www.facebook.com/Tr%C3%A6ksmeden-IS-1684092575217575/?ref=page_internal">
+                                <img class="footer_img" src="gallery/extra/facebook.png" alt="Link to Traeksmeden's facebook page">
+                            </a>
+                        </li>
+                     </ul>
                 </div>
-
             </div>
         </div>
-    </div>
+ 
 
         <!--Footer - credit "created and hosted by Træksmeden ApS ©" --> 
         <section class="credit-info">
