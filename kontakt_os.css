@@ -162,7 +162,7 @@ iframe.frameMaps{
 }
 
 /*Card container med Den røde og sort blok(Kontakt formular)*/
-
+/* Vi har lavet en kontaktformular med inspiration fra en siden (https://www.notimedad.dev/contact-form-grid/) som handler om kontakt formular i grid facade */
 .centerContainer{
     margin: auto;
     text-align: center;
@@ -222,18 +222,15 @@ p.cardUnderText{
 
 .textContainer {
     margin: 0;
-    /* Span both columns */
     grid-column: span 2;
     
   }
   
   .buttonContainer {
-    /* Span both columns */
     grid-column: span 2;
   }
 
   .headerText{
-    /* Span both columns */
     grid-column: span 2;
     font-size: 5rem;
     font-family: rama-gothic-m,sans-serif;

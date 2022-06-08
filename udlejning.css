@@ -88,9 +88,6 @@ p{
     margin-block-end: 2em;
 }
 
-
-
-
 .grid-container { 
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -1,3 +1,4 @@
+/* En funktion der viser den specifikke emne valg i vi tilbyder siden */
 function showHideSmed(){
     document.getElementById("Smedarbejde").style.display = "block";
     document.getElementById("Hydraulik").style.display = "none";
@@ -38,7 +39,7 @@ function showHideCus(){
     document.getElementById("offersText").style.paddingTop = "20px";
     document.getElementById("offerHeadText").innerHTML ="Custom"
 }
-
+/* Alert knap til hvis man ikke har udfyldt boksnene - vi tog i brug af https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert */
 function alertButton(){
     var fname = document.forms["contactForm"]["first-name"].value;
     var lname = document.forms["contactForm"]["last-name"].value;
@@ -102,9 +103,7 @@ function formular(){
 }
 
 /* For at skifte tilstanden mellem ledig eller ikke ledig */
-
-
-
+/* ideen er bygget med fra inspiration - https://www.w3schools.com/js/tryit.asp?filename=tryjs_lightbulb */
 function changeImage() {
     var gen = document.getElementById('GeneratorOption').value;
     var var1 = document.getElementById('VarmeBlæsere1Option').value;
