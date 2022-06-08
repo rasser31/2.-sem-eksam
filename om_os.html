@@ -46,14 +46,14 @@
     <header class="mobileHeader">
         <div class="topnav">
             <a href="#home"><img class="mobileLogo" src="gallery/logos/mobileLogo.png" alt="Mobile Logo"></a>
-            <div id="myLinks">
+            <div id="mobileNavbarLinks">
               <a class="burgernav" href="index.html">FORSIDE</a>
               <a class="burgernav" href="vi_tilbyder.html">VI TILBYDER</a>
               <a class="burgernav" href="om_os.html">OM OS</a>
               <a class="burgernav" href="kontakt_os.html">KONTAKT OS</a>
               <a class="burgernav" href="#">UDLEJNING</a>
             </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
               <i class="fa fa-bars"></i>
             </a>
           </div>
@@ -306,37 +306,6 @@
 
 
 
-    <script>
-        function myFunction() {
-        var x = document.getElementById("myLinks");
-        if (x.style.display === "block") {
-            x.style.display = "none";
-        } else {
-            x.style.display = "block";
-        }
-        }
-
-        function navbarForside(){
-            window.location.href = "index.html";
-        }
-        function navbarVitilbyder(){
-            window.location.href = "vi_tilbyder.html";
-        }
-        function navbarOmOs(){
-            window.location.href = "om_os.html";
-        }
-        function navbarKontaktOs(){
-            window.location.href = "kontakt_os.html";
-        }
-        function navbarUdlejning(){
-            window.location.href = "#";
-        }
-        function kontaktOs(){
-            window.location.href = "kontakt_os.html";
-        }
-        function formular(){
-            window.location.href = "kontakt_os.html";
-        }
-    </script>
+    <script src="main.js" defer></script>
 </body>
 </html>

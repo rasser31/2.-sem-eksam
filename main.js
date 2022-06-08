@@ -57,3 +57,44 @@ function alertButton(){
         alert("Din besked er blevet sendt!")
     } 
 }
+
+
+
+
+
+
+
+/* Desktop Navbar functions */
+function navbarForside(){
+    window.location.href = "index.html";
+}
+function navbarVitilbyder(){
+    window.location.href = "vi_tilbyder.html";
+}
+function navbarOmOs(){
+    window.location.href = "om_os.html";
+}
+function navbarKontaktOs(){
+    window.location.href = "kontakt_os.html";
+}
+function navbarUdlejning(){
+    window.location.href = "#";
+}
+
+/* Mobile Navbar functions */
+function mobileNav() {
+    var x = document.getElementById("mobileNavbarLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+
+/* Contact Button Elements */
+function kontaktOs(){
+    window.location.href = "kontakt_os.html";
+}
+function formular(){
+    window.location.href = "kontakt_os.html";
+}
