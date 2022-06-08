@@ -182,10 +182,6 @@ iframe.frameMaps{
     margin-right: auto;
 
     display: grid;
-    
-    /* Create four rows.
-    The first two and the last will fill the available space, 
-    while the 3rd row (message) is set at 150px */
     /*grid-template-rows: 3.8rem 1fr 1fr 1fr 1fr 10rem 3.5rem;*/
 }
 
