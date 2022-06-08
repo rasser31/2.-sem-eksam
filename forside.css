@@ -125,7 +125,7 @@ header button:hover{
     display: flex;
     justify-content: space-between;
 
-    background-image: url('gallery/hammerWrench.png');
+    background-image: url('gallery/background/hammerWrench.png');
     background-repeat: no-repeat;
     background-position: 600px 150px;
     background-size: 800px;

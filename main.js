@@ -81,7 +81,7 @@ function navbarKontaktOs(){
     window.location.href = "kontakt_os.html";
 }
 function navbarUdlejning(){
-    window.location.href = "#";
+    window.location.href = "udlejning.html";
 }
 
 /* Mobile Navbar functions */
