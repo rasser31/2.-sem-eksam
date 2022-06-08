@@ -66,6 +66,8 @@ function alertButton(){
 
 
 /* Desktop Navbar functions */
+/* Vi har benyttet informationerne fra dette link omkring hvordan vi kan benytte Javascript til at dirigere rundt til links igennem siderne.
+https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html */
 function navbarForside(){
     window.location.href = "index.html";
 }
