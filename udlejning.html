@@ -1,29 +1,18 @@
 <!DOCTYPE html>
-<html lang="da">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Hos Træksmeden kan du forvente et seriøst firma, der sikrer kvalitet til gode priser. Vi tilbyder Smedearbejde, Hydraulik, Syn og meget mere">
-    <meta name="keywords" content="Træksmeden, Metal, Din lokale smed, Smedearbejde, Hydraulik, Syn, Reperation, lastbil, kran, svejs, gravko">
-    <meta name="author" content="Træksmeden ApS">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--OPEN GRAPH som gøre det visuelt pænt når siden bliver vist på forskellige sociale medier - Open Graph protocol -->
-    <meta property="og:title" content="Træksmeden ApS" />
-    <meta property="og:url" content="index.html"/>
-    <meta property="og:description" content="Træksmeden er et seriøst firma, der sikrer kvalitet til gode priser. Vi tilbyder Smedearbejde, Hydraulik, Syn og meget mere"/>
-    <meta property="og:image" content="gallery/background/background.png"/>
-
-    <!--Indsættelse af robots.txt for at sikre at robotter scan siden igennem-->
-    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-    
     <link rel="stylesheet" href="forside.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="om_os.css">
+    <link rel="stylesheet" href="udlejning.css">
 
-    <title>Træksmeden ApS</title>
+    <title>Træksmeden ApS - Udlejningsbetingelser</title>
     <link rel="icon" type="image/x-icon" href="gallery/logos/rund_favicon.png">
 
-    <!-- The fonts we use -->
     <link rel="stylesheet" href="https://use.typekit.net/lru6wig.css"> <!-- Adobe font -->
     <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Google font -->
@@ -32,71 +21,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@700&display=swap" rel="stylesheet"> <!-- Google font - Hindi Madurai -->
 </head>
 <body>
-    <header>
+    <header class="desktopHeader">
         <a class="logoBox" href="index.html">
             <img class="logo" src="gallery/logos/firmanumre.jpg" alt="Logo">
         </a>
 
         <nav>
-            <button class="nav underline" onclick="navbarForside()">FORSIDE</button>
+            <button class="nav" onclick="navbarForside()">FORSIDE</button>
             <button class="nav" onclick="navbarVitilbyder()">VI TILBYDER</button>
-            <button class="nav" onclick="navbarOmOs()">OM OS</button>
+            <button class="nav underline" onclick="navbarOmOs()">OM OS</button>
             <button class="nav" onclick="navbarKontaktOs()">KONTAKT OS</button>
             <button class="nav" onclick="navbarUdlejning()">UDLEJNING</button>
         </nav>
     </header>
-    <main>
-        <section class="mainFront">
-            <h1 class="frontpageHeader">PROFFESIONEL SMED</h1>
-            <p class="frontpageText">Hos Træksmeden kan du forvente et seriøst firma, der sikrer kvalitet til gode priser.</p>
-            <button class="frontpageButtons frontpageButtonBlack" onclick="kontaktOs()">Kontakt os</button>
-            <button class="frontpageButtons frontpageButtonRed" onclick="formular()">Udfyld formular</button>
+
+    <header class="mobileHeader">
+        <div class="topnav">
+            <a href="#home"><img class="mobileLogo" src="gallery/logos/mobileLogo.png" alt="Mobile Logo"></a>
+            <div id="myLinks">
+              <a class="burgernav" href="index.html">FORSIDE</a>
+              <a class="burgernav" href="vi_tilbyder.html">VI TILBYDER</a>
+              <a class="burgernav" href="om_os.html">OM OS</a>
+              <a class="burgernav" href="kontakt_os.html">KONTAKT OS</a>
+              <a class="burgernav" href="#">UDLEJNING</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </header>
+
+
+
+
+
+
+
+
+    <section>
         
-        </section>
+    </section>
 
-        <section class="welcomeSection">
-            <img class="photoshoot" src="gallery/extra/fotoshoot.png" alt="Fotoshoot">
-            <aside class="welcomeTextBox">
-                <h2 class="welcomeHeader">Velkommen til TRÆKSMEDEN ApS</h2>
-                <p class="welcomeText">Vi hos Træksmeden ApS står i faglig kompetence og god service, hvor vi har altid har kunden i fokus og præger på at lave det bedste produkt/service.<br><br>
-                    Du kan altid forvente professionel rådgivning, hvor vores nøgleværdier er viden, kvalitet og forståelse der matcher dine behov og krav.<br><br>
-                    Vi garanterer dig at vi lever op til dine behov og vi går aldrig kompromis med kvaliteten.<br>
-                    Vi er en virksomhed som tør at hoppe ud i forskellige samt udfordrende opgaver.<br><br>
-                    Vi ser frem til at høre fra dig. </p>
-            </aside>
-        </section>
 
-        <section class="gallerySection">
-            <section class="quoteBox">
-                <p>"Hos Træksmeden ApS er vi bevidste om, at alle kunder er <br> forskellige, hvorfor vi leverer en bred vifte af specialløsninger."</p>
-            </section>
-            <section class="galleryPicBox">
-                <a href=""><img class="galleryPics" src="gallery/projects/stair.png" alt="Trappe"></a>
-                <a href=""><img class="galleryPics" src="gallery/projects/bathinghouse.png" alt="Badehus"></a>
-                <a href=""><img class="galleryPics" src="gallery/projects/terrace.png" alt="Terrasse"></a>
-                <a href=""><img class="galleryPics" src="gallery/projects/flowerbox.png" alt="Blomsterkasse"></a>
-                <a href=""><img class="galleryPics" src="gallery/projects/workshop.png" alt="Værksted"></a>
-                <a href=""><img class="galleryPics" src="gallery/projects/owners.png" alt="Ejere"></a>
-                <a href=""><img class="galleryPics" src="gallery/projects/balcony.png" alt="Altan"></a>
-                <a href=""><img class="galleryPics" src="gallery/projects/diningtable.png" alt="Spisebord"></a>
-            </section>
-        </section>
 
-        <section class="feedbackSection">
-            <aside class="textBox">
-                <h2 class="facebookHeader">Seneste anmeldelser</h2>
-                <p class="facebookText">Har du lyst til at få et udsnit af vores igangværende projekter??<br><br>
-                    Få også opdateringer af vores forskellige udlejnings produkter<br><br>
-                    Vi laver både Facebook-opslag og Facebook-stories så du kan følge med i vores daglige arbejdsliv. Du kan også vores seneste opslag til højre<br><br>
-                    Klik på knappen nedenunder for at komme direkte ind på vores Facebookside</p>
-                <a class="facebookButton" href="https://www.facebook.com/Tr%C3%A6ksmeden-IS-1684092575217575/">Facebook Side</a>
-            </aside>
-            <aside class="facebookPost">
-                <img class="facebookImg" src="gallery/extra/facebookPost.png" alt="Facebook Post">
-            </aside>
-        </section>
-
-    </main>
     <footer class="footer">
         <div class="container buttom_border">
             <div class="row">
@@ -221,18 +188,20 @@
                 </div>
 
             </div>
-        </div>
-    </div>
 
-        <!--Footer - credit "created and hosted by Træksmeden ApS ©" --> 
-        <section class="credit-info">
-            <p class="credit-txt">
-                Created and hosted by Træksmeden ApS©
-            </p>
-        </section>
-        
+        </div>
+            
+            <!--Footer - credit "created and hosted by Træksmeden ApS ©" --> 
+            <section class="credit-info">
+                <p class="credit-txt">
+                    Created and hosted by Træksmeden ApS©
+                </p>
+            </section>
+
         <!--Footer - Slutningen --> 
+        
     </footer>
+
 
     <script>
         function navbarForside(){
