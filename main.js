@@ -96,5 +96,7 @@ function kontaktOs(){
     window.location.href = "kontakt_os.html";
 }
 function formular(){
-    window.location.href = "kontakt_os.html";
+    /* Ide benyttet fra Geeksforgeeks.org omkring redirecting til anden urls element id
+    https://www.geeksforgeeks.org/how-to-redirect-to-a-particular-section-of-a-page-using-html-or-jquery/*/
+    window.location.href = "kontakt_os.html#contactForm";
 }
